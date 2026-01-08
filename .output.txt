@@ -1,0 +1,500 @@
+﻿
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026/01/08     19:58                Attributes
+d-----        2026/01/08     19:58                Csv
+d-----        2026/01/08     19:58                Data
+d-----        2026/01/08     19:58                Effect
+d-----        2026/01/08     19:58                Enum
+d-----        2026/01/08     19:58                Json
+d-----        2026/01/08     19:58                Manager
+d-----        2026/01/08     19:58                Script
+d-----        2026/01/08     19:58                Skills
+d-----        2026/01/08     19:58                UI
+d-----        2026/01/08     19:58                Util
+-a----        2025/12/29     17:53             86 Attributes.meta
+-a----        2025/12/29     17:53            423 BellerophonInitializer.cs
+-a----        2025/12/29     17:53             86 BellerophonInitializer.cs.met
+                                                  a
+-a----        2025/12/29     17:53             83 Csv.meta
+-a----        2025/12/29     17:53            172 Data.meta
+-a----        2025/12/29     17:53             83 Effect.meta
+-a----        2025/12/29     17:53             83 Enum.meta
+-a----        2025/12/29     17:53            172 Json.meta
+-a----        2025/12/29     17:53            172 Manager.meta
+-a----        2025/12/29     17:53            172 Script.meta
+-a----        2025/12/29     17:53             86 Skills.meta
+-a----        2025/12/29     17:53            172 UI.meta
+-a----        2025/12/29     17:53            172 Util.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Attri
+    butes
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            300 CommandAttribute.cs
+-a----        2025/12/29     17:53             86 CommandAttribute.cs.meta
+-a----        2025/12/29     17:53            296 SkillAttribute.cs
+-a----        2025/12/29     17:53             86 SkillAttribute.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Csv
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            304 LocalCsv.cs
+-a----        2025/12/29     17:53             83 LocalCsv.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Data
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026/01/08     19:58                Battle
+d-----        2026/01/08     19:58                Maps
+d-----        2026/01/08     19:58                Scripts
+d-----        2026/01/08     19:58                Units
+-a----        2025/12/29     17:53             86 Battle.meta
+-a----        2025/12/29     17:53           3672 CommonSettingsData.cs
+-a----        2025/12/29     17:53            243 CommonSettingsData.cs.meta
+-a----        2025/12/29     17:53            373 GrowthSuitabilityData.cs
+-a----        2025/12/29     17:53             86 GrowthSuitabilityData.cs.meta
+-a----        2025/12/29     17:53            807 LocalData.cs
+-a----        2025/12/29     17:53             83 LocalData.cs.meta
+-a----        2025/12/29     17:53             86 Maps.meta
+-a----        2025/12/29     17:53            538 MenuData.cs
+-a----        2025/12/29     17:53             59 MenuData.cs.meta
+-a----        2025/12/29     17:53           6331 SaveData.cs
+-a----        2025/12/29     17:53             83 SaveData.cs.meta
+-a----        2025/12/29     17:53             86 Scripts.meta
+-a----        2025/12/29     17:53            764 SystemSettingsData.cs
+-a----        2025/12/29     17:53             83 SystemSettingsData.cs.meta
+-a----        2025/12/29     17:53             86 Units.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Data\
+    Battle
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            607 BattleInfoData.cs
+-a----        2025/12/29     17:53             59 BattleInfoData.cs.meta
+-a----        2025/12/29     17:53            587 BattleResultData.cs
+-a----        2025/12/29     17:53             59 BattleResultData.cs.meta
+-a----        2025/12/29     17:53            218 CombatStatusData.cs
+-a----        2025/12/29     17:53             86 CombatStatusData.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Data\
+    Maps
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           1302 LayerData.cs
+-a----        2025/12/29     17:53             86 LayerData.cs.meta
+-a----        2025/12/29     17:53           1341 MapData.cs
+-a----        2025/12/29     17:53            243 MapData.cs.meta
+-a----        2025/12/29     17:53            268 MapTileData.cs
+-a----        2025/12/29     17:53             86 MapTileData.cs.meta
+-a----        2025/12/29     17:53            375 MoveCostData.cs
+-a----        2025/12/29     17:53             86 MoveCostData.cs.meta
+-a----        2025/12/29     17:53           1784 TileData.cs
+-a----        2025/12/29     17:53            243 TileData.cs.meta
+-a----        2025/12/29     17:53            494 TilesData.cs
+-a----        2025/12/29     17:53             86 TilesData.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Data\
+    Scripts
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            467 ConditionData.cs
+-a----        2025/12/29     17:53             83 ConditionData.cs.meta
+-a----        2025/12/29     17:53           3325 RunningScriptData.cs
+-a----        2025/12/29     17:53             86 RunningScriptData.cs.meta
+-a----        2025/12/29     17:53            967 ScriptsData.cs
+-a----        2025/12/29     17:53            243 ScriptsData.cs.meta
+-a----        2025/12/29     17:53            845 ScriptVariableData.cs
+-a----        2025/12/29     17:53            243 ScriptVariableData.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Data\
+    Units
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           1009 ArrangementData.cs
+-a----        2025/12/29     17:53            243 ArrangementData.cs.meta
+-a----        2025/12/29     17:53           6794 CharacterData.cs
+-a----        2025/12/29     17:53            243 CharacterData.cs.meta
+-a----        2025/12/29     17:53            914 GroupData.cs
+-a----        2025/12/29     17:53            243 GroupData.cs.meta
+-a----        2025/12/29     17:53           3952 MessageData.cs
+-a----        2025/12/29     17:53             83 MessageData.cs.meta
+-a----        2025/12/29     17:53            293 MoveData.cs
+-a----        2025/12/29     17:53            243 MoveData.cs.meta
+-a----        2025/12/29     17:53           6140 PermanenceCharacterData.cs
+-a----        2025/12/29     17:53            243 PermanenceCharacterData.cs.me
+                                                  ta
+-a----        2025/12/29     17:53           2992 PermanenceUnitData.cs
+-a----        2025/12/29     17:53            243 PermanenceUnitData.cs.meta
+-a----        2025/12/29     17:53            283 RangeData.cs
+-a----        2025/12/29     17:53             59 RangeData.cs.meta
+-a----        2025/12/29     17:53           1546 ResourceValueData.cs
+-a----        2025/12/29     17:53             83 ResourceValueData.cs.meta
+-a----        2025/12/29     17:53            533 SituationData.cs
+-a----        2025/12/29     17:53             83 SituationData.cs.meta
+-a----        2025/12/29     17:53            825 SkillData.cs
+-a----        2025/12/29     17:53             83 SkillData.cs.meta
+-a----        2025/12/29     17:53           1236 StatusValueData.cs
+-a----        2025/12/29     17:53             59 StatusValueData.cs.meta
+-a----        2025/12/29     17:53           2301 SuitableData.cs
+-a----        2025/12/29     17:53             83 SuitableData.cs.meta
+-a----        2025/12/29     17:53           5855 UnitData.cs
+-a----        2025/12/29     17:53            243 UnitData.cs.meta
+-a----        2025/12/29     17:53           3541 WeaponData.cs
+-a----        2025/12/29     17:53             59 WeaponData.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Effec
+    t
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            537 BlastControl.cs
+-a----        2025/12/29     17:53             83 BlastControl.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Enum
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            133 ActionType.cs
+-a----        2025/12/29     17:53             59 ActionType.cs.meta
+-a----        2025/12/29     17:53            269 AtlasType.cs
+-a----        2025/12/29     17:53             83 AtlasType.cs.meta
+-a----        2025/12/29     17:53            116 AttackType.cs
+-a----        2025/12/29     17:53             59 AttackType.cs.meta
+-a----        2025/12/29     17:53            148 ConditionType.cs
+-a----        2025/12/29     17:53             83 ConditionType.cs.meta
+-a----        2025/12/29     17:53            192 DirectionType.cs
+-a----        2025/12/29     17:53             86 DirectionType.cs.meta
+-a----        2025/12/29     17:53            135 LayerType.cs
+-a----        2025/12/29     17:53             59 LayerType.cs.meta
+-a----        2025/12/29     17:53            142 MoveType.cs
+-a----        2025/12/29     17:53             83 MoveType.cs.meta
+-a----        2025/12/29     17:53            139 ObjectiveType.cs
+-a----        2025/12/29     17:53             83 ObjectiveType.cs.meta
+-a----        2025/12/29     17:53            534 ProcessMode.cs
+-a----        2025/12/29     17:53             83 ProcessMode.cs.meta
+-a----        2025/12/29     17:53            151 ReactionMode.cs
+-a----        2025/12/29     17:53             59 ReactionMode.cs.meta
+-a----        2025/12/29     17:53            160 Suitable.cs
+-a----        2025/12/29     17:53             83 Suitable.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Json
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           1496 CharactersJson.cs
+-a----        2025/12/29     17:53            243 CharactersJson.cs.meta
+-a----        2025/12/29     17:53            855 CommonSettingsJson.cs
+-a----        2025/12/29     17:53            243 CommonSettingsJson.cs.meta
+-a----        2025/12/29     17:53            543 CopyrightJson.cs
+-a----        2025/12/29     17:53             86 CopyrightJson.cs.meta
+-a----        2025/12/29     17:53            646 MapsJson.cs
+-a----        2025/12/29     17:53            243 MapsJson.cs.meta
+-a----        2025/12/29     17:53            738 MessagesJson.cs
+-a----        2025/12/29     17:53             83 MessagesJson.cs.meta
+-a----        2025/12/29     17:53           2179 ScriptsJson.cs
+-a----        2025/12/29     17:53            243 ScriptsJson.cs.meta
+-a----        2025/12/29     17:53            317 SkillJson.cs
+-a----        2025/12/29     17:53             83 SkillJson.cs.meta
+-a----        2025/12/29     17:53            329 SystemSettingsJson.cs
+-a----        2025/12/29     17:53             83 SystemSettingsJson.cs.meta
+-a----        2025/12/29     17:53           2147 TilesJson.cs
+-a----        2025/12/29     17:53            243 TilesJson.cs.meta
+-a----        2025/12/29     17:53           1769 UnitsJson.cs
+-a----        2025/12/29     17:53            243 UnitsJson.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Manag
+    er
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           9919 CharacterEditorManager.cs
+-a----        2025/12/29     17:53             86 CharacterEditorManager.cs.met
+                                                  a
+-a----        2025/12/29     17:53           2028 CharacterEditorWindowManager.
+                                                  cs
+-a----        2025/12/29     17:53             86 CharacterEditorWindowManager.
+                                                  cs.meta
+-a----        2025/12/29     17:53            526 IntermissionSceneManager.cs
+-a----        2025/12/29     17:53             83 IntermissionSceneManager.cs.m
+                                                  eta
+-a----        2025/12/29     17:53          21114 MapEditorManager.cs
+-a----        2025/12/29     17:53             59 MapEditorManager.cs.meta
+-a----        2025/12/29     17:53           3324 MapEditorWindowManager.cs
+-a----        2025/12/29     17:53             59 MapEditorWindowManager.cs.met
+                                                  a
+-a----        2025/12/29     17:53           4116 ScriptManager.cs
+-a----        2025/12/29     17:53             83 ScriptManager.cs.meta
+-a----        2025/12/29     17:53          87834 SlgSceneManager.cs
+-a----        2025/12/29     17:53            243 SlgSceneManager.cs.meta
+-a----        2025/12/29     17:53          30373 SlgWindowManager.cs
+-a----        2025/12/29     17:53             59 SlgWindowManager.cs.meta
+-a----        2025/12/29     17:53           2117 StartupManager.cs
+-a----        2025/12/29     17:53            245 StartupManager.cs.meta
+-a----        2025/12/29     17:53          21665 TileEditorManager.cs
+-a----        2025/12/29     17:53             60 TileEditorManager.cs.meta
+-a----        2025/12/29     17:53           2513 TileEditorWindowManager.cs
+-a----        2025/12/29     17:53             83 TileEditorWindowManager.cs.me
+                                                  ta
+-a----        2025/12/29     17:53           7118 TileMapManager.cs
+-a----        2025/12/29     17:53             59 TileMapManager.cs.meta
+-a----        2025/12/29     17:53           5591 UnitEditorManager.cs
+-a----        2025/12/29     17:53             86 UnitEditorManager.cs.meta
+-a----        2025/12/29     17:53           1754 UnitEditorWindowManager.cs
+-a----        2025/12/29     17:53             86 UnitEditorWindowManager.cs.me
+                                                  ta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026/01/08     19:58                Audio
+d-----        2026/01/08     19:58                Camera
+d-----        2026/01/08     19:58                Common
+d-----        2026/01/08     19:58                Effect
+d-----        2026/01/08     19:58                Map
+d-----        2026/01/08     19:58                Message
+d-----        2026/01/08     19:58                Unit
+-a----        2025/12/29     17:53            172 Audio.meta
+-a----        2025/12/29     17:53            172 Camera.meta
+-a----        2025/12/29     17:53            172 Common.meta
+-a----        2025/12/29     17:53             83 Effect.meta
+-a----        2025/12/29     17:53            152 ICommand.cs
+-a----        2025/12/29     17:53            243 ICommand.cs.meta
+-a----        2025/12/29     17:53            172 Map.meta
+-a----        2025/12/29     17:53            172 Message.meta
+-a----        2025/12/29     17:53            172 Unit.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Audio
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            522 MusicCommand.cs
+-a----        2025/12/29     17:53            243 MusicCommand.cs.meta
+-a----        2025/12/29     17:53            544 SoundCommand.cs
+-a----        2025/12/29     17:53            243 SoundCommand.cs.meta
+-a----        2025/12/29     17:53            355 StopMusicCommand.cs
+-a----        2025/12/29     17:53            243 StopMusicCommand.cs.meta
+-a----        2025/12/29     17:53            355 StopSoundCommand.cs
+-a----        2025/12/29     17:53            243 StopSoundCommand.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Camera
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            739 ViewCenterCommand.cs
+-a----        2025/12/29     17:53            243 ViewCenterCommand.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Common
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            664 BackImageColorCommand.cs
+-a----        2025/12/29     17:53             83 BackImageColorCommand.cs.meta
+-a----        2025/12/29     17:53            534 BackImageCommand.cs
+-a----        2025/12/29     17:53             83 BackImageCommand.cs.meta
+-a----        2025/12/29     17:53            357 CharaListCommand.cs
+-a----        2025/12/29     17:53             83 CharaListCommand.cs.meta
+-a----        2025/12/29     17:53            682 ChgScriptCommand.cs
+-a----        2025/12/29     17:53             59 ChgScriptCommand.cs.meta
+-a----        2025/12/29     17:53            615 ClearVariableCommand.cs
+-a----        2025/12/29     17:53             59 ClearVariableCommand.cs.meta
+-a----        2025/12/29     17:53            385 ConditionListCommand.cs
+-a----        2025/12/29     17:53             83 ConditionListCommand.cs.meta
+-a----        2025/12/29     17:53            483 ExitCommand.cs
+-a----        2025/12/29     17:53             59 ExitCommand.cs.meta
+-a----        2025/12/29     17:53           1905 IfCommand.cs
+-a----        2025/12/29     17:53             59 IfCommand.cs.meta
+-a----        2025/12/29     17:53           1258 InputVariableCommand.cs
+-a----        2025/12/29     17:53             83 InputVariableCommand.cs.meta
+-a----        2025/12/29     17:53            753 IntermissionCommand.cs
+-a----        2025/12/29     17:53             83 IntermissionCommand.cs.meta
+-a----        2025/12/29     17:53            340 LoadCommand.cs
+-a----        2025/12/29     17:53             83 LoadCommand.cs.meta
+-a----        2025/12/29     17:53            340 SaveCommand.cs
+-a----        2025/12/29     17:53             83 SaveCommand.cs.meta
+-a----        2025/12/29     17:53            843 SetVariableCommand.cs
+-a----        2025/12/29     17:53             59 SetVariableCommand.cs.meta
+-a----        2025/12/29     17:53            476 SystemSettingsCommand.cs
+-a----        2025/12/29     17:53             83 SystemSettingsCommand.cs.meta
+-a----        2025/12/29     17:53            354 UnitListCommand.cs
+-a----        2025/12/29     17:53             83 UnitListCommand.cs.meta
+-a----        2025/12/29     17:53            541 WaitCommand.cs
+-a----        2025/12/29     17:53             59 WaitCommand.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Effect
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            676 BlastCommand.cs
+-a----        2025/12/29     17:53             83 BlastCommand.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Map
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           3971 AddConditionCommand.cs
+-a----        2025/12/29     17:53             83 AddConditionCommand.cs.meta
+-a----        2025/12/29     17:53           1199 ArrangementUnitCommand.cs
+-a----        2025/12/29     17:53             83 ArrangementUnitCommand.cs.met
+                                                  a
+-a----        2025/12/29     17:53           1601 ChgColorCommand.cs
+-a----        2025/12/29     17:53            243 ChgColorCommand.cs.meta
+-a----        2025/12/29     17:53            594 ChgMapCommand.cs
+-a----        2025/12/29     17:53            243 ChgMapCommand.cs.meta
+-a----        2025/12/29     17:53            912 ChgTileCommand.cs
+-a----        2025/12/29     17:53            243 ChgTileCommand.cs.meta
+-a----        2025/12/29     17:53            385 ClearArrangementAreaCommand.c
+                                                  s
+-a----        2025/12/29     17:53             83 ClearArrangementAreaCommand.c
+                                                  s.meta
+-a----        2025/12/29     17:53           2065 ClearConditionCommand.cs
+-a----        2025/12/29     17:53             83 ClearConditionCommand.cs.meta
+-a----        2025/12/29     17:53            379 ClearHighlightAreaCommand.cs
+-a----        2025/12/29     17:53             83 ClearHighlightAreaCommand.cs.
+                                                  meta
+-a----        2025/12/29     17:53            770 DelConditionCommand.cs
+-a----        2025/12/29     17:53             83 DelConditionCommand.cs.meta
+-a----        2025/12/29     17:53            346 EndTurnCommand.cs
+-a----        2025/12/29     17:53             59 EndTurnCommand.cs.meta
+-a----        2025/12/29     17:53           1041 SetArrangementAreaCommand.cs
+-a----        2025/12/29     17:53             83 SetArrangementAreaCommand.cs.
+                                                  meta
+-a----        2025/12/29     17:53           1035 SetHighlightAreaCommand.cs
+-a----        2025/12/29     17:53             83 SetHighlightAreaCommand.cs.me
+                                                  ta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Message
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            837 ChoiceCommand.cs
+-a----        2025/12/29     17:53             86 ChoiceCommand.cs.meta
+-a----        2025/12/29     17:53           1259 MessageCommand.cs
+-a----        2025/12/29     17:53             59 MessageCommand.cs.meta
+-a----        2025/12/29     17:53            970 TelopCommand.cs
+-a----        2025/12/29     17:53             60 TelopCommand.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Scrip
+    t\Unit
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           1093 AddGroupCommand.cs
+-a----        2025/12/29     17:53            243 AddGroupCommand.cs.meta
+-a----        2025/12/29     17:53           3736 AddUnitCommand.cs
+-a----        2025/12/29     17:53            243 AddUnitCommand.cs.meta
+-a----        2025/12/29     17:53            356 ClearGroupCommand.cs
+-a----        2025/12/29     17:53            243 ClearGroupCommand.cs.meta
+-a----        2025/12/29     17:53            434 ClearUnitCommand.cs
+-a----        2025/12/29     17:53            243 ClearUnitCommand.cs.meta
+-a----        2025/12/29     17:53            551 DelGroupCommand.cs
+-a----        2025/12/29     17:53            243 DelGroupCommand.cs.meta
+-a----        2025/12/29     17:53            731 DelUnitCommand.cs
+-a----        2025/12/29     17:53            243 DelUnitCommand.cs.meta
+-a----        2025/12/29     17:53           1062 EditCharacterCommand.cs
+-a----        2025/12/29     17:53             59 EditCharacterCommand.cs.meta
+-a----        2025/12/29     17:53            919 EditGroupCommand.cs
+-a----        2025/12/29     17:53             83 EditGroupCommand.cs.meta
+-a----        2025/12/29     17:53           1037 EditUnitCommand.cs
+-a----        2025/12/29     17:53             59 EditUnitCommand.cs.meta
+-a----        2025/12/29     17:53           1107 MoveUnitCommand.cs
+-a----        2025/12/29     17:53            243 MoveUnitCommand.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Skill
+    s
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            256 FlavorSkill.cs
+-a----        2025/12/29     17:53             86 FlavorSkill.cs.meta
+-a----        2025/12/29     17:53            162 ISkill.cs
+-a----        2025/12/29     17:53             86 ISkill.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\UI
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2026/01/08     19:58                CharacterEditor
+d-----        2026/01/08     19:58                MapEditor
+d-----        2026/01/08     19:58                TileEditor
+d-----        2026/01/08     19:58                UnitEditor
+-a----        2025/12/29     17:53           4554 ArrangementUnitsWindow.cs
+-a----        2025/12/29     17:53             84 ArrangementUnitsWindow.cs.met
+                                                  a
+-a----        2025/12/29     17:53           1981 BackImageWindow.cs
+-a----        2025/12/29     17:53             83 BackImageWindow.cs.meta
+-a----        2025/12/29     17:53            839 BaseWindow.cs
+-a----        2025/12/29     17:53             86 BaseWindow.cs.meta
+-a----        2025/12/29     17:53           1184 BattleConfirmWindow.cs
+-a----        2025/12/29     17:53             84 BattleConfirmWindow.cs.meta
+-a----        2025/12/29     17:53           5393 BattleStatusPanel.cs
+-a----        2025/12/29     17:53             83 BattleStatusPanel.cs.meta
+-a----        2025/12/29     17:53             86 CharacterEditor.meta
+-a----        2025/12/29     17:53           2224 ChoiceWindow.cs
+-a----        2025/12/29     17:53             86 ChoiceWindow.cs.meta
+-a----        2025/12/29     17:53           1715 CommandMenuWindow.cs
+-a----        2025/12/29     17:53             59 CommandMenuWindow.cs.meta
+-a----        2025/12/29     17:53           2322 ConditionListWindow.cs
+-a----        2025/12/29     17:53             83 ConditionListWindow.cs.meta
+-a----        2025/12/29     17:53           1066 DebugWindow.cs
+-a----        2025/12/29     17:53             60 DebugWindow.cs.meta
+-a----        2025/12/29     17:53            921 ErrorWindow.cs
+-a----        2025/12/29     17:53             83 ErrorWindow.cs.meta
+-a----        2025/12/29     17:53           4643 IntermissionWindow.cs
+-a----        2025/12/29     17:53             83 IntermissionWindow.cs.meta
+-a----        2025/12/29     17:53           6431 ListWindow.cs
+-a----        2025/12/29     17:53             83 ListWindow.cs.meta
+-a----        2025/12/29     17:53             83 MapEditor.meta
+-a----        2025/12/29     17:53           1672 MessageWindow.cs
+-a----        2025/12/29     17:53             59 MessageWindow.cs.meta
+-a----        2025/12/29     17:53           5943 SettingWindow.cs
+-a----        2025/12/29     17:53             83 SettingWindow.cs.meta
+-a----        2025/12/29     17:53           3153 SimpleStatusWindow.cs
+-a----        2025/12/29     17:53             60 SimpleStatusWindow.cs.meta
+-a----        2025/12/29     17:53           9051 StatusWindow.cs
+-a----        2025/12/29     17:53             83 StatusWindow.cs.meta
+-a----        2025/12/29     17:53           2725 SystemMenuWindow.cs
+-a----        2025/12/29     17:53             60 SystemMenuWindow.cs.meta
+-a----        2025/12/29     17:53           1567 TelopWindow.cs
+-a----        2025/12/29     17:53             60 TelopWindow.cs.meta
+-a----        2025/12/29     17:53             83 TileEditor.meta
+-a----        2025/12/29     17:53           6031 ToolSelectorWindow.cs
+-a----        2025/12/29     17:53             83 ToolSelectorWindow.cs.meta
+-a----        2025/12/29     17:53             86 UnitEditor.meta
+-a----        2025/12/29     17:53           1571 VariableInputWindow.cs
+-a----        2025/12/29     17:53             83 VariableInputWindow.cs.meta
+-a----        2025/12/29     17:53           2106 WeaponMenuWindow.cs
+-a----        2025/12/29     17:53             59 WeaponMenuWindow.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\UI\Ch
+    aracterEditor
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53          17073 CharacterEditorToolBar.cs
+-a----        2025/12/29     17:53            245 CharacterEditorToolBar.cs.met
+                                                  a
+-a----        2025/12/29     17:53           1615 CharacterLoadWindow.cs
+-a----        2025/12/29     17:53            245 CharacterLoadWindow.cs.meta
+-a----        2025/12/29     17:53           4667 CharacterSettingWindow.cs
+-a----        2025/12/29     17:53            245 CharacterSettingWindow.cs.met
+                                                  a
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\UI\Ma
+    pEditor
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53          12363 MapEditorToolBar.cs
+-a----        2025/12/29     17:53            245 MapEditorToolBar.cs.meta
+-a----        2025/12/29     17:53           1571 MapLoadWindow.cs
+-a----        2025/12/29     17:53            245 MapLoadWindow.cs.meta
+-a----        2025/12/29     17:53          10452 MapSettingWindow.cs
+-a----        2025/12/29     17:53            245 MapSettingWindow.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\UI\Ti
+    leEditor
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53          34432 TileEditorToolBar.cs
+-a----        2025/12/29     17:53            245 TileEditorToolBar.cs.meta
+-a----        2025/12/29     17:53           1579 TileLoadWindow.cs
+-a----        2025/12/29     17:53            245 TileLoadWindow.cs.meta
+-a----        2025/12/29     17:53           7931 TileSettingWindow.cs
+-a----        2025/12/29     17:53            245 TileSettingWindow.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\UI\Un
+    itEditor
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53           8637 UnitEditorToolBar.cs
+-a----        2025/12/29     17:53            245 UnitEditorToolBar.cs.meta
+-a----        2025/12/29     17:53           1561 UnitLoadWindow.cs
+-a----        2025/12/29     17:53            245 UnitLoadWindow.cs.meta
+-a----        2025/12/29     17:53           4194 UnitSettingWindow.cs
+-a----        2025/12/29     17:53            245 UnitSettingWindow.cs.meta
+    ディレクトリ: D:\Projects\Unity\project-bellerophon-public\Assets\Functions\Util
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/12/29     17:53            682 AxisDistanceSortCameraHelper.
+                                                  cs
+-a----        2025/12/29     17:53             59 AxisDistanceSortCameraHelper.
+                                                  cs.meta
+-a----        2025/12/29     17:53           5961 BattleUtil.cs
+-a----        2025/12/29     17:53             83 BattleUtil.cs.meta
+-a----        2025/12/29     17:53          42606 DataUtil.cs
+-a----        2025/12/29     17:53            243 DataUtil.cs.meta
+-a----        2025/12/29     17:53            655 LocaleUtil.cs
+-a----        2025/12/29     17:53             83 LocaleUtil.cs.meta
+-a----        2025/12/29     17:53           2552 LogWriter.cs
+-a----        2025/12/29     17:53             83 LogWriter.cs.meta
+-a----        2025/12/29     17:53           1503 MondUtil.cs
+-a----        2025/12/29     17:53             86 MondUtil.cs.meta
