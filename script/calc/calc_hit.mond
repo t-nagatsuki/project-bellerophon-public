@@ -1,0 +1,6 @@
+﻿var hit = 50;
+hit += (global.attack_chara.concentration + global.attack_unit.unit.accuracy);
+hit += global.attack_weapon.accuracy;
+hit += global.unit_hit_bonus + global.weapon_hit_bonus;
+
+return hit;

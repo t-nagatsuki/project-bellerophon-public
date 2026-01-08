@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserInterfaces/CommandMenu/CommandMenu.uss?fileID=7433441132597879392&amp;guid=dddd1e0484be0e843979381a8cc59ace&amp;type=3#CommandMenu" />
+    <engine:VisualElement name="DivCommandWindow" style="flex-grow: 1; flex-direction: column; width: 20%;">
+        <engine:VisualElement name="DivSpace" enabled="false" style="flex-grow: 1; visibility: hidden;" />
+        <engine:VisualElement name="DivMenu" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.49); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;" />
+    </engine:VisualElement>
+</engine:UXML>

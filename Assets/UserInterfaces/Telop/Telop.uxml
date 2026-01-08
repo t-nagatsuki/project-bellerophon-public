@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1;" />
+    <engine:VisualElement name="VisualElement" style="flex-grow: 1; justify-content: center; width: 100%; background-color: rgba(0, 0, 0, 0.49); -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:Label text="Test" name="LblTelop" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 40px; color: rgb(255, 255, 255); -unity-text-align: middle-center;" />
+    </engine:VisualElement>
+    <engine:VisualElement style="flex-grow: 1;" />
+</engine:UXML>

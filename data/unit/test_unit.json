@@ -1,0 +1,210 @@
+{
+	"unit": [
+		{
+			"id": "test_0001",
+			"name": "Test Unit 0001",
+			"machine":true,
+			"display": "",
+			"base_resource": "type_c4.png",
+			"pixels": 128,
+			"base_image": [
+				{
+					"pos": [
+						{
+							"x": 0,
+							"y": 0
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				},
+				{
+					"pos": [
+						{
+							"x": 0,
+							"y": 384
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				},
+				{
+					"pos": [
+						{
+							"x": 0,
+							"y": 768
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				},
+				{
+					"pos": [
+						{
+							"x": 0,
+							"y": 1152
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				}
+			],
+			"suitability": {
+				"space": "E",
+				"air": "D",
+				"ground": "A",
+				"underwater": "D"
+			},
+			"status": {
+				"accuracy": 30,
+				"maneuver": 30,
+				"power": 100,
+				"armor": 300,
+				"reduction": 100,
+				"move": 4,
+				"hp": 5000,
+				"en": 300
+			},
+			"special": [
+			],
+			"weapon": [
+				{
+					"name": "テスト格闘",
+					"attack_type": "short",
+					"range": {
+						"min": 1,
+						"max": 1
+					},
+					"suitability": {
+						"space": "E",
+						"air": "E",
+						"ground": "A",
+						"underwater": "D"
+					},
+					"accuracy": 0,
+					"critical": 0,
+					"atk": 2000,
+					"bullets": 0,
+					"special": []
+				},
+				{
+					"name": "テスト武装",
+					"attack_type": "long",
+					"range": {
+						"min": 3,
+						"max": 5
+					},
+					"suitability": {
+						"space": "E",
+						"air": "B",
+						"ground": "A",
+						"underwater": "D"
+					},
+					"accuracy": 0,
+					"critical": 0,
+					"atk": 2500,
+					"bullets": 12,
+					"special": []
+				}
+			]
+		},
+		{
+			"id": "test_0002",
+			"name": "Test Unit 0002",
+			"machine":true,
+			"display": "",
+			"base_resource": "test.png",
+			"pixels": 256,
+			"base_image": [
+				{
+					"pos": [
+						{
+							"x": 0,
+							"y": 0
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				}
+			],
+			"suitability": {
+				"space": "E",
+				"air": "E",
+				"ground": "A",
+				"underwater": "D"
+			},
+			"status": {
+				"accuracy": 30,
+				"maneuver": 30,
+				"power": 100,
+				"armor": 300,
+				"reduction": 100,
+				"move": 4,
+				"hp": 5000,
+				"en": 300
+			},
+			"special": [
+			],
+			"weapon": [
+				{
+					"name": "テスト格闘",
+					"attack_type": "short",
+					"range": {
+						"min": 1,
+						"max": 1
+					},
+					"suitability": {
+						"space": "E",
+						"air": "E",
+						"ground": "A",
+						"underwater": "D"
+					},
+					"accuracy": 0,
+					"critical": 0,
+					"atk": 2000,
+					"bullets": 0,
+					"special": []
+				},
+				{
+					"name": "テスト武装",
+					"attack_type": "long",
+					"range": {
+						"min": 3,
+						"max": 5
+					},
+					"suitability": {
+						"space": "E",
+						"air": "B",
+						"ground": "A",
+						"underwater": "D"
+					},
+					"accuracy": 0,
+					"critical": 0,
+					"atk": 2500,
+					"bullets": 12,
+					"special": []
+				}
+			]
+		}
+	]
+}

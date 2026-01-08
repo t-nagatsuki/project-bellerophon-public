@@ -1,0 +1,528 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UIText Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UIText
+  m_TableCollectionNameGuidString: 588573a109b85eb44b868ac871fd751c
+  m_Entries:
+  - m_Id: 407387521024
+    m_Key: ts_btn_play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537977176064
+    m_Key: cmn_btn_load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671934857216
+    m_Key: cmn_btn_setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708278501376
+    m_Key: ts_btn_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 760757633024
+    m_Key: ts_grp_tools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811093475328
+    m_Key: ts_btn_editor_tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 882874793984
+    m_Key: ts_btn_editor_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49048768757760
+    m_Key: cmn_btn_save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49425090101248
+    m_Key: cmn_btn_new
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49635287646208
+    m_Key: lbl_tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49811318390784
+    m_Key: lbl_tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50220611158016
+    m_Key: lbl_hidden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50414081818624
+    m_Key: lbl_cost_move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50847139512320
+    m_Key: lbl_suitability_space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50909060022272
+    m_Key: lbl_suitability_air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50914395176960
+    m_Key: lbl_suitability_ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50915712188416
+    m_Key: lbl_suitability_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51455884017664
+    m_Key: lbl_height_conversion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51706283966464
+    m_Key: lbl_layer_color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51774953111552
+    m_Key: lbl_layer_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51847451656192
+    m_Key: lbl_layer_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51992046092288
+    m_Key: lbl_layer_front
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52374046523392
+    m_Key: lbl_flip_x
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52764670443520
+    m_Key: lbl_speed_animation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53045835612160
+    m_Key: cmn_btn_confirmed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53150294753280
+    m_Key: cmn_btn_cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53550242611200
+    m_Key: lbl_load_file
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53723563835392
+    m_Key: lbl_load_tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54071942725632
+    m_Key: lbl_setting_tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54241400995840
+    m_Key: lbl_name_file
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54323777126400
+    m_Key: lbl_id_tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54407835172864
+    m_Key: lbl_id_tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54496087523328
+    m_Key: lbl_base_size_tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55534651719680
+    m_Key: lbl_height
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55841783824384
+    m_Key: lbl_grid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55899770077184
+    m_Key: lbl_moving_possibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56608838139904
+    m_Key: lbl_bgm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56644581998592
+    m_Key: lbl_id_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57223421116416
+    m_Key: lbl_load_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63172055678976
+    m_Key: lbl_bgm_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63251143475200
+    m_Key: lbl_size_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63332148068352
+    m_Key: lbl_default_tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63332752048128
+    m_Key: lbl_default_tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63840560627712
+    m_Key: lbl_setting_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147103778095104
+    m_Key: sw_btn_window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147282694520832
+    m_Key: sw_btn_sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147361992032256
+    m_Key: cmn_btn_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147458024816640
+    m_Key: sw_lbl_mode_window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147683024060416
+    m_Key: sw_lbl_size_window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147796140244992
+    m_Key: cmn_btn_apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151436984860672
+    m_Key: lbl_sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355312051044352
+    m_Key: bcw_lbl_hit_percent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355425808957440
+    m_Key: bcw_lbl_critical_percent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356331283693568
+    m_Key: lbl_conditions_victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356479040634880
+    m_Key: lbl_conditions_defeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4402849428553728
+    m_Key: iw_btn_list_unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4402935239819264
+    m_Key: iw_btn_list_character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4403283631292416
+    m_Key: iw_btn_sortie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4422746942488576
+    m_Key: sw_lbl_locale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612233303703552
+    m_Key: lbl_status_unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612293877841920
+    m_Key: lbl_status_character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612434651267072
+    m_Key: lbl_status_weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612850759778304
+    m_Key: lbl_suitability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613285285478400
+    m_Key: lbl_status_accuracy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613402210091008
+    m_Key: lbl_status_maneuver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613423697510400
+    m_Key: lbl_status_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613431742185472
+    m_Key: lbl_status_armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613542505365504
+    m_Key: lbl_status_reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613594883833856
+    m_Key: lbl_status_move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614350030520320
+    m_Key: lbl_skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614647138238464
+    m_Key: lbl_status_concentration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614715031437312
+    m_Key: lbl_status_reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614774364061696
+    m_Key: lbl_status_ability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614838499164160
+    m_Key: lbl_status_perception
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614943105105920
+    m_Key: lbl_status_intention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4615026567561216
+    m_Key: lbl_status_endurance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4615100097904640
+    m_Key: lbl_status_expertise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616009959882752
+    m_Key: lbl_weapon_skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616278554722304
+    m_Key: lbl_weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616396049760256
+    m_Key: lbl_status_range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616458993680384
+    m_Key: lbl_status_suitability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4617002520952832
+    m_Key: lbl_status_attack_power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4617188957765632
+    m_Key: lbl_status_remaining_bullets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4617404373024768
+    m_Key: lbl_status_consumption_en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4618152917876736
+    m_Key: lbl_status_suitability_abbv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4618648042881024
+    m_Key: lbl_list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4628502354608128
+    m_Key: lbl_end_turn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4630411773755392
+    m_Key: lbl_conditions_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4634673169842176
+    m_Key: lbl_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4634901440643072
+    m_Key: lbl_placement_completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635152775921664
+    m_Key: lbl_placement_withdrawal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635503402958848
+    m_Key: cmd_move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635563230511104
+    m_Key: cmd_attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635580984999936
+    m_Key: cmd_wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635709385228288
+    m_Key: cmd_change_space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635829560426496
+    m_Key: cmd_change_air
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635891313164288
+    m_Key: cmd_change_ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635923491864576
+    m_Key: cmd_change_water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638035013550080
+    m_Key: cmd_counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638102223077376
+    m_Key: cmd_guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638178198700032
+    m_Key: cmd_avoidance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638797919698944
+    m_Key: bcw_lbl_guard_percent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70322943719960576
+    m_Key: lbl_void
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70337179930128384
+    m_Key: ts_btn_editor_unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70337183415595008
+    m_Key: ts_btn_editor_character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70339976901750784
+    m_Key: lbl_load_unit_pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70339992789774336
+    m_Key: lbl_load_character_pack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072387969118208
+    m_Key: lbl_id_character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072411411083264
+    m_Key: lbl_id_unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072775485059072
+    m_Key: lbl_setting_character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072821962141696
+    m_Key: lbl_setting_unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71073623481053184
+    m_Key: lbl_character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71073660906827776
+    m_Key: lbl_unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71410560902262784
+    m_Key: lbl_character_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71410642078822400
+    m_Key: lbl_unit_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72117864374267904
+    m_Key: lbl_status_hp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72117899560284160
+    m_Key: lbl_status_en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72117930610716672
+    m_Key: lbl_status_sp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72182658167009280
+    m_Key: lbl_growth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72186316053082112
+    m_Key: lbl_status_lv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72438591431274496
+    m_Key: lbl_character_image
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72556386361077760
+    m_Key: lbl_tab_base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72556684001472512
+    m_Key: lbl_tab_weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72556964420055040
+    m_Key: lbl_tab_message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73642765644001280
+    m_Key: lbl_tab_image
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1524798445299696129
+  references:
+    version: 2
+    RefIds:
+    - rid: 1524798445299696129
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1749107785915

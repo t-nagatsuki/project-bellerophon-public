@@ -1,0 +1,253 @@
+{
+  "id": "test",
+  "methods": [
+    {
+      "name": "test",
+      "process": [
+        {
+          "cmd": "add_group",
+          "group_id": 1,
+          "name": "自軍",
+          "color": {
+            "r": 153,
+            "g": 153,
+            "b": 255,
+            "a": 255
+          },
+          "player": true,
+          "friendly": [
+            3
+          ],
+          "music": "04.ogg"
+        },
+        {
+          "cmd": "add_group",
+          "group_id": 2,
+          "name": "敵軍",
+          "color": {
+            "r": 255,
+            "g": 153,
+            "b": 153,
+            "a": 255
+          },
+          "turning": true,
+          "player": false,
+          "music": "light_and_shadow.ogg"
+        },
+        {
+          "cmd": "add_group",
+          "group_id": 3,
+          "name": "友軍",
+          "color": {
+            "r": 153,
+            "g": 255,
+            "b": 153,
+            "a": 255
+          },
+          "player": false,
+          "friendly": [
+            1
+          ]
+        },
+        {
+          "cmd": "add_unit",
+          "group_id": 1,
+          "unit_id": "u_grp0_0",
+          "chara_id": "c_grp0_0",
+          "unit": "test_0002",
+          "chara": "belle",
+          "lv": 5,
+          "non_arrangement": true
+        },
+        {
+          "cmd": "add_unit",
+          "group_id": 1,
+          "unit_id": "u_grp0_1",
+          "unit": "test_0001",
+          "non_arrangement": true
+        },
+        {
+          "cmd": "add_unit",
+          "group_id": 1,
+          "chara_id": "c_grp0_1",
+          "chara": "unknown_0001",
+          "lv": 5,
+          "non_arrangement": true
+        },
+        {
+          "cmd": "choice",
+          "text": ["#{lbl_test}", "改行test"],
+          "choices": [
+            {
+              "text": ["選択肢1"],
+              "method": "test_intermission"
+            },
+            {
+              "text": ["選択肢2", "改行"],
+              "method": "test2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "test_intermission",
+      "process": [
+        {
+          "cmd": "intermission",
+          "method": "test2"
+        }
+      ]
+    },
+    {
+      "name": "test2",
+      "process": [
+        {
+          "cmd": "set_variable",
+          "name": "test1",
+          "value": "Test"
+        },
+        {
+          "cmd": "input_variable",
+          "name": "test1",
+          "text": [
+            "なにか入れてね"
+          ],
+          "min_num": 2,
+          "max_num": 5
+        },
+        {
+          "cmd": "back_image",
+          "name": "FantasticDesert.png",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 255
+          }
+        },
+        {
+          "cmd": "chg_map",
+          "name": "default_map"
+        },
+        {
+          "cmd": "set_highlight_area",
+          "pos": {
+            "x": 2,
+            "y": 2
+          },
+          "area_size": {
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "cmd": "view_center",
+          "pos": {
+            "x": 9,
+            "y": 7
+          }
+        },
+        {
+          "cmd": "back_image_color",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+          },
+          "fade": 1000
+        },
+        {
+          "cmd": "set_arrangement_area",
+          "pos": {
+            "x": 9,
+            "y": 7
+          },
+          "area_size": {
+            "x": 1,
+            "y": 2
+          }
+        },
+        {
+          "cmd": "set_variable",
+          "scope": "test",
+          "name": "test1",
+          "value": "Play"
+        },
+        {
+          "cmd": "telop",
+          "text": [
+            "${test1} ${test.test1}!!"
+          ],
+          "time": 1,
+          "fade": 1
+        },
+        {
+          "cmd": "back_image_color",
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 0
+          },
+          "fade": 1000
+        },
+        {
+          "cmd": "back_image"
+        },
+        {
+          "cmd": "add_unit",
+          "pos": {
+            "x": 7,
+            "y": 0
+          },
+          "direction": 3,
+          "group_id": 3,
+          "unit_id": "u_grp2_0",
+          "chara_id": "c_grp2_0",
+          "unit": "test_0001",
+          "chara": "unknown_0001",
+          "lv": 1,
+          "chara_name": "TestB",
+          "animation": true
+        },
+        {
+          "cmd": "arrangement_unit",
+          "min_num": 1,
+          "max_num": 2,
+          "method": "test3"
+        }
+      ]
+    },
+    {
+      "name": "test3",
+      "process": [
+        {
+          "cmd": "add_unit",
+          "pos": {
+            "x": 1,
+            "y": 8
+          },
+          "direction": 1,
+          "group_id": 2,
+          "unit_id": "u_grp1_0",
+          "chara_id": "c_grp1_0",
+          "unit": "test_0001",
+          "chara": "unknown_0001",
+          "lv": 1,
+          "chara_name": "TestA",
+          "animation": true,
+          "action_type": "destination",
+          "target_position": {
+            "x": 10,
+            "y": 6
+          }
+        },
+        {
+          "cmd": "clear_highlight_area"
+        }
+      ]
+    }
+  ]
+}

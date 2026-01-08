@@ -1,0 +1,3281 @@
+{
+  "tiles": [
+    {
+      "id": "ts_debugtiles",
+      "pixels": 32,
+      "tile": [
+        {
+          "name": "debug_block",
+          "collision": false,
+          "suitable": [
+            {
+              "move_type": "air",
+              "cost": 1
+            },
+            {
+              "move_type": "ground",
+              "cost": 1
+            }
+          ],
+          "base_layer": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 192,
+                "y": 0
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ts_ruletiles",
+      "pixels": 32,
+      "tile": [
+        {
+          "name": "debug_road",
+          "collision": false,
+          "suitable": [
+            {
+              "move_type": "air",
+              "cost": 1
+            },
+            {
+              "move_type": "ground",
+              "cost": 1
+            }
+          ],
+          "base_layer": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 192
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 448,
+                    "y": 192
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 448,
+                    "y": 288
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "debug_water",
+          "collision": false,
+          "suitable": [
+            {
+              "move_type": "air",
+              "cost": 1
+            },
+            {
+              "move_type": "underwater",
+              "cost": 1
+            }
+          ],
+          "base_layer": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 384
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "animation",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 576
+                  },
+                  {
+                    "x": 64,
+                    "y": 576
+                  },
+                  {
+                    "x": 128,
+                    "y": 576
+                  },
+                  {
+                    "x": 192,
+                    "y": 576
+                  },
+                  {
+                    "x": 256,
+                    "y": 576
+                  }
+                ],
+                "min_speed": 0.1,
+                "max_speed": 2.0
+              }
+            ]
+          },
+          "overlay_back": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "overlay_front": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 384
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "debug_fence",
+          "collision": false,
+          "suitable": [
+            {
+              "move_type": "air",
+              "cost": 1
+            },
+            {
+              "move_type": "ground",
+              "cost": 1
+            }
+          ],
+          "base_layer": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 480
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 480
+                  }
+                ]
+              }
+            ]
+          },
+          "overlay_back": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 192,
+                "y": 480
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 192,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 64,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 128,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "overlay_front": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 384,
+                "y": 480
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 256,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 320,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 1
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 2
+                  }
+                ]
+              },
+              {
+                "output": "single",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 384,
+                    "y": 480
+                  }
+                ],
+                "neighbors": [
+                  {
+                    "pos": {
+                      "x": -1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 1,
+                      "y": 0
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": -1
+                    },
+                    "flg": 2
+                  },
+                  {
+                    "pos": {
+                      "x": 0,
+                      "y": 1
+                    },
+                    "flg": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "name": "debug_anim",
+          "collision": false,
+          "suitable": [
+            {
+              "move_type": "air",
+              "cost": 1
+            },
+            {
+              "move_type": "ground",
+              "cost": 1
+            }
+          ],
+          "base_layer": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 96
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "animation",
+                "resource": "BLRP_DebugTileset.png",
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 96
+                  },
+                  {
+                    "x": 64,
+                    "y": 96
+                  },
+                  {
+                    "x": 128,
+                    "y": 96
+                  },
+                  {
+                    "x": 192,
+                    "y": 96
+                  },
+                  {
+                    "x": 256,
+                    "y": 96
+                  },
+                  {
+                    "x": 320,
+                    "y": 96
+                  },
+                  {
+                    "x": 384,
+                    "y": 96
+                  },
+                  {
+                    "x": 448,
+                    "y": 96
+                  },
+                  {
+                    "x": 512,
+                    "y": 96
+                  },
+                  {
+                    "x": 576,
+                    "y": 96
+                  }
+                ],
+                "min_speed": 1,
+                "max_speed": 1
+              }
+            ]
+          }
+        },
+        {
+          "name": "debug_random",
+          "collision": false,
+          "suitable": [
+            {
+              "move_type": "air",
+              "cost": 1
+            },
+            {
+              "move_type": "ground",
+              "cost": 1
+            }
+          ],
+          "base_layer": {
+            "resource": "BLRP_DebugTileset.png",
+            "pos": [
+              {
+                "x": 0,
+                "y": 96
+              }
+            ],
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 255
+            },
+            "rules": [
+              {
+                "output": "random",
+                "resource": "BLRP_DebugTileset.png",
+                "perlin": 0.5,
+                "pos": [
+                  {
+                    "x": 0,
+                    "y": 96
+                  },
+                  {
+                    "x": 64,
+                    "y": 96
+                  },
+                  {
+                    "x": 128,
+                    "y": 96
+                  },
+                  {
+                    "x": 192,
+                    "y": 96
+                  },
+                  {
+                    "x": 256,
+                    "y": 96
+                  },
+                  {
+                    "x": 320,
+                    "y": 96
+                  },
+                  {
+                    "x": 384,
+                    "y": 96
+                  },
+                  {
+                    "x": 448,
+                    "y": 96
+                  },
+                  {
+                    "x": 512,
+                    "y": 96
+                  },
+                  {
+                    "x": 576,
+                    "y": 96
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

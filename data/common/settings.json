@@ -1,0 +1,261 @@
+{
+	"debug_mode": true,
+	"tool_mode": true,
+	"cursor": {
+		"id": "cursor",
+		"pixels": 32,
+		"tile": [
+			{
+				"name": "group_marker",
+				"overlay_back": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 0,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "highlight_area",
+				"base_layer": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 0,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 128,
+						"g": 255,
+						"b": 255,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "arrangement_area",
+				"base_layer": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 0,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 200,
+						"g": 200,
+						"b": 200,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "move_area",
+				"base_layer": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 0,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 128,
+						"g": 128,
+						"b": 255,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "attack_area",
+				"base_layer": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 0,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 128,
+						"b": 128,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "cursor",
+				"overlay_front": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 64,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 128,
+						"g": 255,
+						"b": 128,
+						"a": 255
+					}
+				},
+				"overlay_back": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 128,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 128,
+						"g": 255,
+						"b": 128,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "target_cursor",
+				"base_layer": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 64,
+							"y": 192
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 128,
+						"b": 128,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "self_marker",
+				"overlay_front": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 256,
+							"y": 288
+						}
+					],
+					"color": {
+						"r": 128,
+						"g": 255,
+						"b": 128,
+						"a": 255
+					}
+				}
+			},
+			{
+				"name": "target_marker",
+				"overlay_front": {
+					"resource": "BLRP_SysTex_UI.png",
+					"pos": [
+						{
+							"x": 0,
+							"y": 288
+						}
+					],
+					"color": {
+						"r": 255,
+						"g": 128,
+						"b": 128,
+						"a": 255
+					}
+				}
+			}
+		]
+	},
+	"map_cursor": ["cursor"],
+	"highlight_area": ["highlight_area"],
+	"arrangement_area": ["arrangement_area"],
+	"move_area": ["move_area"],
+	"attack_area": ["attack_area"],
+	"group_marker": "group_marker",
+	"self_marker": "self_marker",
+	"target_marker": "target_marker",
+	"system_menu": [
+		{
+			"text": "#{lbl_end_turn}",
+			"bold": true,
+			"italic": false,
+			"name": "system",
+			"method": "end_turn",
+			"group": 1
+		},
+		{
+			"text": "#{cmn_btn_save}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "save",
+			"group": 0
+		},
+		{
+			"text": "#{cmn_btn_load}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "load",
+			"group": 0
+		},
+		{
+			"text": "#{lbl_conditions_menu}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "condition_list",
+			"group": 1
+		},
+		{
+			"text": "#{iw_btn_list_unit}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "unit_list",
+			"group": 1
+		},
+		{
+			"text": "#{iw_btn_list_character}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "chara_list",
+			"group": 1
+		},
+		{
+			"text": "#{cmn_btn_setting}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "settings",
+			"group": 1
+		},
+		{
+			"text": "#{ts_btn_exit}",
+			"bold": false,
+			"italic": false,
+			"name": "system",
+			"method": "exit",
+			"group": 0
+		}
+	]
+}

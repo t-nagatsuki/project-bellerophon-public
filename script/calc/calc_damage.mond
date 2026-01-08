@@ -1,0 +1,7 @@
+﻿
+var min = 0.9f;
+var max = 1.1f;
+
+var a = 1;
+var b = 2;
+return a + b;

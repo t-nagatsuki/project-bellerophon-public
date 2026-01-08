@@ -1,0 +1,48 @@
+{
+  "messages": [
+    {
+      "id": "test_0001",
+      "attack": [
+        {
+          "message": ["テスト攻撃だよ！"]
+        },
+        {
+          "message": ["いっけー！"]
+        },
+        {
+          "hit_under": 30,
+          "message": ["当たって！！"]
+        },
+        {
+          "hit_over": 80,
+          "message": ["余裕余裕～♪"]
+        }
+      ],
+      "guard": [
+        
+      ],
+      "avoid": [
+        {
+          "message": ["回避成功！"]
+        },
+        {
+          "hit_under": 30,
+          "message": ["そんな攻撃は当たらない！！"]
+        },
+        {
+          "hit_over": 80,
+          "message": ["奇跡的な回避！"]
+        }
+      ],
+      "damage": [
+        {
+          "message": ["うげっ"]
+        },
+        {
+          "hp_under": 30,
+          "message": ["やばいっ！"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="Image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=06aef140313924f458dc67584d5824db&amp;type=3#Remove@2x&quot;); -unity-background-image-tint-color: rgba(255, 255, 255, 0); transition-property: -unity-background-image-tint-color; transition-timing-function: ease-in-out;" />
+</engine:UXML>

@@ -1,0 +1,26 @@
+﻿{
+  "id": "stage_0001",
+  "methods": [
+    {
+      "name": "setup",
+      "process": [
+        {
+          "cmd": "chg_map",
+          "name": "stage_0001"
+        },
+        {
+          "cmd": "add_unit",
+          "pos": { "x": 9, "y": 7 },
+          "move_type": "ground",
+          "group_id": 1,
+          "unit_id": "grp0_0",
+          "chara_id": "grp0_0",
+          "unit": "test_0001",
+          "chara": "test_0001",
+          "lv": 5,
+          "animation": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1; background-color: rgb(70, 72, 84); flex-direction: row; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement style="flex-grow: 0; flex-direction: column; flex-shrink: 0; width: 500px;">
+            <engine:Button text="ユニット一覧" name="BtnUnitList" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4402849428553728)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="キャラクター一覧" name="BtnCharacterList" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4402935239819264)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="キャラクター一覧" name="BtnSetting" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(671934857216)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="キャラクター一覧" name="BtnExit" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(708278501376)" />
+                </Bindings>
+            </engine:Button>
+            <engine:VisualElement style="flex-grow: 1; flex-direction: column-reverse;">
+                <engine:Button text="保存" name="BtnSave" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49048768757760)" />
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="読込" name="BtnLoad" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(537977176064)" />
+                    </Bindings>
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; flex-shrink: 0;" />
+        <engine:VisualElement style="flex-grow: 0; flex-direction: column; flex-shrink: 0; width: 500px;">
+            <engine:VisualElement style="flex-grow: 1; flex-direction: column-reverse;">
+                <engine:Button text="出撃" name="BtnNextStage" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4403283631292416)" />
+                    </Bindings>
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,99 @@
+{
+	"character": [
+		{
+			"id": "belle",
+			"name": "Belle",
+			"image": "belle.png",
+			"music": "battle3.ogg",
+			"status": {
+				"concentration": 50,
+				"reaction": 50,
+				"ability": 50,
+				"perception": 50,
+				"intention": 50,
+				"endurance": 50,
+				"expertise": 50,
+				"sp": 50
+			},
+			"suitability": {
+				"space": "C",
+				"air": "D",
+				"ground": "A",
+				"underwater": "D"
+			},
+			"growth": {
+				"concentration": 1,
+				"reaction": 1,
+				"ability": 1,
+				"perception": 1,
+				"intention": 1,
+				"endurance": 1,
+				"expertise": 1,
+				"sp": 2,
+				"suitability": [
+					{
+						"lv": 5,
+						"air": "C",
+						"underwater": "C"
+					},
+					{
+						"lv": 10,
+						"space": "B"
+					}
+				]
+			},
+			"skill": [
+				{
+					"name": "テスト",
+					"rename": "改名",
+					"lv": 1,
+					"display": true
+				},
+				{
+					"name": "テスト２",
+					"lv": 3,
+					"display": true
+				},
+				{
+					"name": "テスト３",
+					"display": false
+				}
+			]
+		},
+		{
+			"id": "unknown_0001",
+			"name": "Unknown",
+			"image": "none.png",
+			"music": "battle1.mp3",
+			"status": {
+				"concentration": 50,
+				"reaction": 50,
+				"ability": 50,
+				"perception": 50,
+				"intention": 50,
+				"endurance": 50,
+				"expertise": 50,
+				"sp": 50
+			},
+			"suitability": {
+				"space": "A",
+				"air": "C",
+				"ground": "A",
+				"underwater": "B"
+			},
+			"growth": {
+				"concentration": 1,
+				"reaction": 1,
+				"ability": 1,
+				"perception": 1,
+				"intention": 1,
+				"endurance": 1,
+				"expertise": 1,
+				"sp": 2,
+				"suitability": [
+				]
+			},
+			"skill": []
+		}
+	]
+}

@@ -1,0 +1,246 @@
+□マップ制御
+
+chg_map
+	map(文字列) : 変更対象のマップ名。
+
+chg_tile
+	pos(Vector3Int) : { "x": X座標, "y": Y座標, "z": Z座標 }
+	name : タイルID
+
+chg_color
+	pos(Vector3Int) : { "x": X座標, "y": Y座標, "z": Z座標 }
+	color(RGBA) : 色
+
+end_turn
+	現在行動中のグループのターンを強制的に終了する
+
+add_condition
+	勝利・敗北・イベント条件の追加。
+	実行されるとsystem.trigger_event_idにイベントIDが設定される。
+	event_id(文字列) : イベントID
+	condition_type(文字列) : victory(勝利条件)、defeat(敗北条件)、event(イベント)
+	objective_type(文字列) : reach(指定地点到達)、reach_all(全指定目標の指定地点到達)、destroy(指定目標撃破)、destroy_all(全指定目標撃破)
+	values(文字列配列) : 対象となるユニットID
+	group_id(数値) : (指定地点到達)陣営ID
+	pos(Vector2Int) : (指定地点到達)基準座標。{ "x": X座標, "y": Y座標 }
+	area_size(Vector2Int) : (指定地点到達)領域サイズ。デフォルトは(1, 1)。{ "x": X座標, "y": Y座標 }
+	name : 条件達成時の読込スクリプト名。省略時は現在のスクリプト内の関数を参照する。
+	method : 条件達成時の関数名
+
+del_condition
+	勝利・敗北・イベント条件の削除
+	event_id(文字列) : イベントID
+
+clear_conditions
+	condition_type(文字列) : victory(勝利条件)、defeat(敗北条件)、event(イベント)、non_event(勝利・敗北条件のみ)、all(全て)
+	勝利・敗北・イベント条件の初期化
+
+set_arrangement_area
+	pos(Vector2Int) : { "x": X座標, "y": Y座標 }
+	area_size(Vector2Int) : 領域サイズ。デフォルトは(1, 1)。{ "x": X座標, "y": Y座標 }
+
+clear_arrangement_area
+	全配置領域の削除
+
+arrangement_unit
+	min_num(数値) : 最低配置数
+	max_num(数値) : 最大配置可能数
+	direction(数値) : 初期配置方向(0.左下 1.右下 2.右上 3.左上)
+	name : 配置完了時の読込スクリプト名。省略時は現在のスクリプト内の関数を参照する。
+	method : 配置完了時の関数名
+
+set_highlight_area
+	pos(Vector3Int) : { "x": X座標, "y": Y座標, "z": Z座標 }
+	area_size(Vector2Int) : 領域サイズ。デフォルトは(1, 1)。{ "x": X座標, "y": Y座標 }
+
+clear_highlight_area
+
+□ユニット制御
+
+add_group
+	id(数値) : 陣営ID
+	name(文字列) : 陣営名
+	color(RGBA) : 陣営色
+	music(文字列) : 陣営ターンBGM
+	player(true/false) : 操作可否。true(操作可能)/false(操作不可)。省略時:false。
+	friendly(数値配列) : [仲間となる陣営ID]
+
+edit_group
+	id(数値) : 陣営ID
+	name(文字列) : 陣営名
+	color(RGBA) : 陣営色
+	music(文字列) : 陣営ターンBGM
+	player(true/false) : 操作可否。true(操作可能)/false(操作不可)。省略時:false。
+	friendly(数値配列) : [仲間となる陣営ID]
+
+del_group
+	id(数値) : 陣営ID
+
+clear_group
+	全グループ情報の削除
+
+add_unit
+	group_id(数値) : 陣営ID。0以外を指定すること。
+	unit : ユニットデータ名
+	chara : キャラクターデータ名
+	unit_id(文字列) : ユニットID
+	chara_id(文字列) : キャラクターID
+	non_arrangement(true/false) : 配置状態。true(非配置)/false(配置)。省略時:false
+	pos(Vector2Int) : { "x": X座標, "y": Y座標 }
+	direction(数値) : 方向(0.左下 1.右下 2.右上 3.左上)
+	move_type(文字列) : space、air、ground、underwater
+	animation(true/false) : 追加時にカメラを移動するか否か。true(移動する)/false(移動しない)。省略時:true
+	action_type(文字列)：AIの行動タイプ(省略可能)。省略時:normal
+		normal：通常の行動タイプ。
+		destination：目的地直行
+		guard：現在地死守
+		peace：無抵抗
+	target_position：destinationの際に目指す目的地
+	unit_name(文字列) : ユニット名称別名表示(省略可能)
+	chara_name(文字列) : キャラクター名称別名表示(省略可能)
+	hidden(true/false) : 表示状態。true(非表示)/false(表示)。省略時:false
+
+edit_unit
+	unit_id(文字列) : ユニットID
+	statuses(文字列配列) : 操作対象のステータス。hp、en(省略可能)
+	op(文字列) : 操作内容。=(絶対値)/%(パーセンテージ)。省略時は"%"。
+	values(文字列配列) : 設定するステータス値。statusと同数を指定する必要あり(省略可能)
+	unit_name(文字列) : ユニット名称別名表示(省略可能)
+	hidden(true/false) : 表示状態。true(非表示)/false(非表示)。省略時:false
+
+edit_character
+	chara_id(文字列) : キャラクターID
+	statuses(文字列配列) : 操作対象のステータス。hp、en(省略可能)
+	op(文字列) : 操作内容。=(絶対値)/%(パーセンテージ)。省略時は"%"。
+	values(文字列配列) : 設定するステータス値。statusと同数を指定する必要あり(省略可能)
+	chara_name(文字列) : キャラクター名称別名表示(省略可能)
+	hidden(true/false) : 表示状態。true(非表示)/false(非表示)。省略時:false
+
+del_unit
+	unit_id(文字列) : ユニットID
+	animation(true/false) : 削除時にカメラを移動するか否か。true(移動する)/false(移動しない)。省略時:false
+	permanent(true/false) : 削除時にユニットの永続情報も削除するか否か。true(削除する)/false(削除しない)。省略時:false
+
+
+move_unit
+	unit_id(文字列) : ユニットID
+	pos(Vector2Int) : { "x": X座標, "y": Y座標 }
+	direction(数値) : 方向(0.左下 1.右下 2.右上 3.左上)。animationがfalseの時のみ機能する。
+	animation(true/false) : 移動時にカメラを移動するか否か。true(移動する)/false(移動しない)。省略時:true
+
+clear_unit
+	全ユニット情報の削除
+
+
+□スクリプト制御
+
+chg_script
+	name : 読込スクリプト名。省略時は現在のスクリプト内の関数を参照する。
+	method : 関数名
+
+set_variable
+	scope : 変数の保存域。省略可能。
+	name : 変数名
+	value : 変数値
+
+input_variable
+	scope : 変数の保存域。省略可能。
+	name : 変数名
+	text(文字列配列) : 表示するテキスト。
+	min_num : 最小文字数
+	max_num : 最大文字数
+
+clear_variable
+	scope : 初期化する変数の保存域。省略した場合、全ての保存域に存在する変数を初期化する。
+	name  : 初期化する変数の変数名。省略した場合、保存域に存在する全ての変数を初期化する。
+
+if
+	scope : 変数の保存域。省略可能。
+	name : 変数名
+	op : 比較演算子(=,!=,<,<=,>,>=)。省略時は"="とする。
+	value : 条件値
+	positive :条件を満たす場合の起動スクリプト。
+		name : 読込スクリプト名。省略時は現在のスクリプト内の関数を参照する。
+		method : 関数名
+	negative : 条件を満たさない場合の起動スクリプト。
+		name : 読込スクリプト名。省略時は現在のスクリプト内の関数を参照する。
+		method : 関数名
+	※positiveかnegativeを省略していた場合は現在の関数の処理を続ける。
+
+wait
+	time(小数) : 処理を停止する秒数。0を指定した場合は決定ボタンが押されるまで停止。
+　　　　※0を指定していた際、ボタンが押されるまでの時間を[system].[wait_time]に設定する。
+back_image
+	name : 画像ファイル名。何も指定していない場合は非表示とする。
+	color : 画像カラー。
+back_image_color
+	color : 画像カラー。
+
+save
+	セーブ
+
+load
+	ロード
+
+unit_list
+	ユニット一覧表示
+
+chara_list
+	キャラクター一覧表示
+
+condition_list
+	勝利・敗北条件一覧表示
+
+intermission
+	インターミッション画面表示
+	name : 次ステージ開始時の読込スクリプト名。
+	method : 次ステージ開始時の関数名
+
+exit
+	アプリケーション終了
+
+
+□カメラ制御
+
+view_center
+	pos(Vector2Int) : { "x": X座標, "y": Y座標 }
+	time(小数) : 移動速度。0指定時は即時移動(省略時:0)
+
+
+□メッセージ制御
+
+message
+	chara_id(文字列) : キャラクターID(省略可能)
+	chara(文字列) : キャラクターデータ名(省略可能)
+	name(文字列) : 表示される話者名(省略可能)
+	text(文字列配列) : 表示するメッセージ。
+	position(up,down) : 表示位置(省略時:down)
+
+telop
+	text(文字列配列) : 表示するテロップ。
+	time(小数) : 全文を表示するまでにかかる時間。
+	fade(小数) : 全文を表示してから消えるまでの時間。
+
+choice
+	text(文字列配列) : 表示するメッセージ。
+	choices(配列) : 選択肢の設定。
+		text(文字列配列) : 表示するメッセージ。
+		name : 読込スクリプト名。省略時は現在のスクリプト内の関数を参照する。
+		method : 関数名
+		
+
+□オーディオ制御
+
+music
+	name : 再生される音楽ファイル名(省略時は現在グループ、或いはマップの標準BGMを再生)
+	loop(true/false) : ループ再生(省略時:true)
+
+stop_music
+	再生中の音楽を止める
+
+sound
+	id : 効果音ID
+	name : 再生される効果音ファイル名
+
+stop_sound
+	id : 停止する効果音ID(省略時は全ての効果音)

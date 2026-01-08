@@ -1,0 +1,21 @@
+{
+	"id": "test2",
+	"methods": [
+		{
+			"name": "test",
+			"process": [
+				{
+					"cmd": "set_variable",
+					"name": "loc_weapon",
+					"value": "#{lbl_weapon}"
+				},
+				{
+					"cmd": "telop",
+					"text": ["未定義の翻訳：#{lbl_hoge}", "定義された翻訳：#{lbl_weapon}", "変数から参照された翻訳：${loc_weapon}"],
+					"time": 1,
+					"fade": 3
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserInterfaces/WeaponMenu/WeaponMenu.uss?fileID=7433441132597879392&amp;guid=ade403b7b1023c94f95fadb2816541b9&amp;type=3#WeaponMenu" />
+    <engine:VisualElement name="DivCommandWindow" style="flex-grow: 1; flex-direction: column; width: 80%; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 30px;">
+        <engine:VisualElement name="DivSpace" enabled="false" style="flex-grow: 1; visibility: hidden;" />
+        <engine:VisualElement name="DivWindow" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.49); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+            <engine:VisualElement template="WeaponMenuButton" style="flex-direction: row; margin-bottom: 10px;">
+                <Style src="project://database/Assets/UserInterfaces/CommandMenu/CommandMenu.uss?fileID=7433441132597879392&amp;guid=dddd1e0484be0e843979381a8cc59ace&amp;type=3#CommandMenu" />
+                <engine:Label text="武装" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 25%; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616278554722304)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Label text="射程" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616396049760256)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Label text="適正" enable-rich-text="true" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4618152917876736)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Label text="威力" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4617002520952832)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Label text="残弾" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4617188957765632)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Label text="消費EN" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4617404373024768)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Label text="特殊効果" style="-unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 1; background-color: rgb(30, 30, 80);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616009959882752)" />
+                    </Bindings>
+                </engine:Label>
+            </engine:VisualElement>
+            <engine:VisualElement name="DivMenu" style="flex-grow: 1;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

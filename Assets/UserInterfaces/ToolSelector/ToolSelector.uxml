@@ -1,0 +1,57 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="Background" style="flex-grow: 1; background-color: rgb(0, 0, 0); flex-direction: row; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement style="flex-grow: 1; flex-direction: column; flex-shrink: 0;">
+            <engine:VisualElement style="flex-grow: 1; flex-direction: column; flex-shrink: 0;">
+                <engine:Button text="Play" name="BtnPlay" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(407387521024)"/>
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Load" name="BtnLoad" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(537977176064)"/>
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Setting" name="BtnSetting" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(671934857216)"/>
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Exit" name="BtnExit" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(708278501376)"/>
+                    </Bindings>
+                </engine:Button>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 2; flex-shrink: 1;"/>
+        <engine:VisualElement style="flex-grow: 1; flex-shrink: 0;">
+            <engine:GroupBox text="Tools" name="GrpTool" style="color: rgb(255, 255, 255); font-size: 40px; -unity-font-style: bold; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+                <engine:Button text="Tile Editor" name="BtnTileEditor" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(811093475328)"/>
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Map Editor" name="BtnMapEditor" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(882874793984)"/>
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Character Editor" name="BtnCharacterEditor" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0); display: flex;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(70337183415595008)"/>
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Unit Editor" name="BtnUnitEditor" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0); display: flex;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(70337179930128384)"/>
+                    </Bindings>
+                </engine:Button>
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(760757633024)"/>
+                </Bindings>
+            </engine:GroupBox>
+        </engine:VisualElement>
+        <engine:Button name="BtnInfo" style="position: absolute; bottom: 10px; right: 10px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2346436936791262179&amp;guid=06aef140313924f458dc67584d5824db&amp;type=3#console.infoicon&quot;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; width: 50px; height: 50px;"/>
+    </engine:VisualElement>
+</engine:UXML>

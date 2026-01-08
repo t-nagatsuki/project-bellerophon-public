@@ -1,0 +1,89 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserInterfaces/SettingWindow/SettingWindow.uss?fileID=7433441132597879392&amp;guid=11202efa8ffcdca4eb4276408bea9492&amp;type=3#SettingWindow" />
+    <engine:VisualElement style="flex-grow: 1; background-color: rgb(0, 0, 0); flex-direction: row; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement style="flex-grow: 1; flex-direction: column; max-width: 300px; min-width: 300px;">
+            <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                <engine:Button text="Graphic" name="BtnGraphic" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(147103778095104)" />
+                    </Bindings>
+                </engine:Button>
+                <engine:Button text="Sound" name="BtnSound" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(147282694520832)" />
+                    </Bindings>
+                </engine:Button>
+            </engine:VisualElement>
+            <engine:Button text="Back" name="BtnBack" style="font-size: 30px; -unity-font-style: bold; padding-top: 30px; padding-bottom: 30px; margin-bottom: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0);">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(147361992032256)" />
+                </Bindings>
+            </engine:Button>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 3; flex-shrink: 0;">
+            <engine:TabView name="TabSetting">
+                <engine:Tab name="TabGraphic" style="padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; flex-grow: 1;">
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-bottom: 30px;">
+                        <engine:Label text="Window Mode" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; flex-shrink: 1; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); max-width: 400px;">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(147458024816640)" />
+                            </Bindings>
+                        </engine:Label>
+                        <engine:RadioButtonGroup enabled="true" choices="Fullscreen,Window" value="-1" name="RadBtnWindowMode" style="flex-grow: 1; font-size: 30px; color: rgb(255, 255, 255); flex-direction: column; flex-shrink: 1; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-bottom: 30px;">
+                        <engine:Label text="Window Size" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; flex-shrink: 1; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); max-width: 400px;">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(147683024060416)" />
+                            </Bindings>
+                        </engine:Label>
+                        <engine:DropdownField choices="800 x 600,1024 x 600,1024 x 768,1280 x 768,1440 x 900,1440 x 1080,1920 x 1080,1920 x 1200,3840 x 2160" index="0" name="DrpWindowSize" style="flex-grow: 1; flex-shrink: 1; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-bottom: 30px;">
+                        <engine:Label text="Window Size" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; flex-shrink: 1; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); max-width: 400px;">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4422746942488576)" />
+                            </Bindings>
+                        </engine:Label>
+                        <engine:DropdownField index="0" name="DrpLocale" style="flex-grow: 1; flex-shrink: 1; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold;" />
+                    </engine:VisualElement>
+                </engine:Tab>
+                <engine:Tab name="TabSound" style="padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; flex-grow: 1;">
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-bottom: 30px;">
+                        <engine:Label text="BGM" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; flex-shrink: 1; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); max-width: 400px;">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(56608838139904)" />
+                            </Bindings>
+                        </engine:Label>
+                        <engine:SliderInt value="100" high-value="100" name="SlideBgm" style="color: rgb(255, 255, 255); font-size: 30px; -unity-font-style: bold; flex-grow: 1; flex-shrink: 1; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                        <engine:TextField value="100" readonly="true" name="TxtBgm" style="flex-grow: 0; max-width: 100px; min-width: 100px; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; -unity-text-align: middle-center; margin-left: 20px;" />
+                    </engine:VisualElement>
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-bottom: 30px;">
+                        <engine:Label text="Sound" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; flex-shrink: 1; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); max-width: 400px;">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(151436984860672)" />
+                            </Bindings>
+                        </engine:Label>
+                        <engine:SliderInt value="100" high-value="100" name="SlideSound" style="color: rgb(255, 255, 255); font-size: 30px; -unity-font-style: bold; flex-grow: 1; flex-shrink: 1; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                        <engine:TextField value="100" readonly="true" name="TxtSound" style="flex-grow: 0; max-width: 100px; min-width: 100px; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; -unity-text-align: middle-center; margin-left: 20px;" />
+                    </engine:VisualElement>
+                </engine:Tab>
+            </engine:TabView>
+            <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+                <engine:VisualElement style="flex-grow: 1; flex-shrink: 1;" />
+                <engine:VisualElement style="flex-grow: 1; flex-direction: row-reverse; max-width: 400px; min-width: auto;">
+                    <engine:Button text="Apply" name="BtnApply" style="font-size: 20px; -unity-font-style: bold; padding-top: 20px; padding-bottom: 20px; margin-bottom: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0); flex-grow: 1; background-color: rgb(152, 176, 197);">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(147796140244992)" />
+                        </Bindings>
+                    </engine:Button>
+                    <engine:Button text="Cancel" name="BtnCancel" style="font-size: 20px; -unity-font-style: bold; padding-top: 20px; padding-bottom: 20px; margin-bottom: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; color: rgb(0, 0, 0); flex-grow: 1; background-color: rgb(190, 153, 151);">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(53150294753280)" />
+                        </Bindings>
+                    </engine:Button>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

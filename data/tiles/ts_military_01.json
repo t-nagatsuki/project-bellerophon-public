@@ -1,0 +1,235 @@
+{
+    "tiles": [
+        {
+            "id": "ts_military_01",
+            "pixels": 32,
+            "tile": [
+                {
+                    "name": "dummy_typec",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "fence_01",
+                    "collision": false,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "fence_01_inv",
+                    "collision": false,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+                        "flip_x": true
+                    }
+                },
+                {
+                    "name": "fence_02",
+                    "collision": false,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 128,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "fence_02_inv",
+                    "collision": false,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 128,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+                        "flip_x": true
+                    }
+                },
+                {
+                    "name": "fence_03",
+                    "collision": false,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "fence_04",
+                    "collision": false,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_military_01.png",
+                        "pos": [
+                            {
+                                "x": 192,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

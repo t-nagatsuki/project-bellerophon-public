@@ -1,0 +1,227 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement picking-mode="Ignore" name="div-top-toolbar" style="background-color: rgb(128, 128, 128); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-direction: row; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:Button text="新規" name="BtnNew" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49425090101248)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="保存" name="BtnSave" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49048768757760)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="読込" name="BtnLoad" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(537977176064)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="設定" name="BtnSettings" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(671934857216)" />
+            </Bindings>
+        </engine:Button>
+        <engine:DropdownField label="タイルセット" name="DrpTileSet" style="font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-grow: 1;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49635287646208)" />
+            </Bindings>
+        </engine:DropdownField>
+        <engine:Button text="＋" name="BtnAddTileSet" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 4px;" />
+        <engine:Button text="－" name="BtnDeleteTileSet" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 20px;" />
+        <engine:DropdownField label="タイル" name="DrpTile" style="font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-grow: 1;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49811318390784)" />
+            </Bindings>
+        </engine:DropdownField>
+        <engine:Button text="＋" name="BtnAddTile" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 4px;" />
+        <engine:Button text="－" name="BtnDeleteTile" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 20px;" />
+        <engine:Button name="BtnClose" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 0; margin-left: 4px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=06aef140313924f458dc67584d5824db&amp;type=3#arrow-left&quot;);" />
+    </engine:VisualElement>
+    <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; flex-direction: row-reverse; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement name="div-tool-window" style="flex-grow: 0; flex-direction: column; width: 30%; flex-shrink: 0;">
+            <engine:VisualElement name="DivResource" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(166, 166, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-direction: row; flex-shrink: 0;">
+                <engine:DropdownField name="DrpResource" style="-unity-font-style: normal; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-grow: 1; min-height: 40px;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="DivTileWindow" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(166, 166, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-shrink: 0; height: 42%;">
+                <engine:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="AlwaysVisible" name="ScrTiles" style="flex-grow: 0; background-color: rgb(0, 0, 0); flex-shrink: 0; height: 100%;">
+                    <engine:VisualElement name="DivTiles" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;" />
+                </engine:ScrollView>
+            </engine:VisualElement>
+            <engine:VisualElement name="DivSetting" style="flex-grow: 0; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(165, 165, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-shrink: 0; height: 42%;">
+                <engine:ScrollView horizontal-scroller-visibility="Hidden" style="flex-grow: 0; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-shrink: 0; height: 100%;">
+                    <engine:Toggle label="非表示" value="false" name="TglHidden">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50220611158016)" />
+                        </Bindings>
+                    </engine:Toggle>
+                    <engine:Toggle label="高さ換算" value="true" name="TglCollision">
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51455884017664)" />
+                        </Bindings>
+                    </engine:Toggle>
+                    <engine:GroupBox text="移動コスト" style="-unity-text-align: middle-left; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Toggle label="宇宙" name="TglSpace">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50847139512320)" />
+                                </Bindings>
+                            </engine:Toggle>
+                            <engine:FloatField value="1" max-length="4" name="FltSpace" style="width: 100px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Toggle label="空中" name="TglAir">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50909060022272)" />
+                                </Bindings>
+                            </engine:Toggle>
+                            <engine:FloatField value="1" max-length="4" name="FltAir" style="width: 100px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Toggle label="地上" name="TglGround">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50914395176960)" />
+                                </Bindings>
+                            </engine:Toggle>
+                            <engine:FloatField value="1" max-length="4" name="FltGround" style="width: 100px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Toggle label="水中" name="TglUnderwater">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50915712188416)" />
+                                </Bindings>
+                            </engine:Toggle>
+                            <engine:FloatField value="1" max-length="4" name="FltUnderwater" style="width: 100px;" />
+                        </engine:VisualElement>
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50414081818624)" />
+                        </Bindings>
+                    </engine:GroupBox>
+                    <engine:GroupBox text="レイヤーカラー" style="-unity-text-align: middle-left; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Label text="基本" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51774953111552)" />
+                                </Bindings>
+                            </engine:Label>
+                            <engine:IntegerField value="255" max-length="3" name="IntBaseColorA" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntBaseColorR" style="width: 65px; max-width: 70px; min-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntBaseColorG" style="width: 70px; max-width: 70px; min-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntBaseColorB" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Label text="装飾(後)" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51847451656192)" />
+                                </Bindings>
+                            </engine:Label>
+                            <engine:IntegerField value="255" max-length="3" name="IntBackColorA" style="width: 70px; max-width: 70px; min-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntBackColorR" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntBackColorG" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntBackColorB" style="width: 70px; max-width: 70px; min-width: 70px;" />
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                            <engine:Label text="装飾(前)" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51992046092288)" />
+                                </Bindings>
+                            </engine:Label>
+                            <engine:IntegerField value="255" max-length="3" name="IntFrontColorA" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntFrontColorR" style="width: 70px; max-width: 70px; min-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntFrontColorG" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                            <engine:IntegerField value="255" max-length="3" name="IntFrontColorB" style="width: 70px; min-width: 70px; max-width: 70px;" />
+                        </engine:VisualElement>
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51706283966464)" />
+                        </Bindings>
+                    </engine:GroupBox>
+                    <engine:GroupBox text="左右反転" style="-unity-text-align: middle-left; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                        <engine:Toggle label="基本" value="false" name="TglBaseFlipX">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51774953111552)" />
+                            </Bindings>
+                        </engine:Toggle>
+                        <engine:Toggle label="装飾(後)" value="false" name="TglBackFlipX">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51847451656192)" />
+                            </Bindings>
+                        </engine:Toggle>
+                        <engine:Toggle label="装飾(前)" value="false" name="TglFrontFlipX">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51992046092288)" />
+                            </Bindings>
+                        </engine:Toggle>
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(52374046523392)" />
+                        </Bindings>
+                    </engine:GroupBox>
+                    <engine:GroupBox text="アニメーション速度" style="-unity-text-align: middle-left; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                        <engine:FloatField label="基本" value="1" name="FltBaseAnimation" max-length="5">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51774953111552)" />
+                            </Bindings>
+                        </engine:FloatField>
+                        <engine:FloatField label="装飾(後)" value="1" name="FltBackAnimation" max-length="5">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51847451656192)" />
+                            </Bindings>
+                        </engine:FloatField>
+                        <engine:FloatField label="装飾(前)" value="1" name="FltFrontAnimation" max-length="5">
+                            <Bindings>
+                                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51992046092288)" />
+                            </Bindings>
+                        </engine:FloatField>
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(52764670443520)" />
+                        </Bindings>
+                    </engine:GroupBox>
+                </engine:ScrollView>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="DivSelectLayerWindow" style="flex-grow: 0; flex-direction: column; flex-shrink: 0; align-items: auto;">
+            <engine:VisualElement name="DivBase" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(166, 166, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 5px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; flex-direction: column; align-items: center; flex-shrink: 0;">
+                <engine:Label text="Front" name="Label" style="-unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 20px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51774953111552)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Button name="BtnDisplayBase" style="width: 140px; height: 210px; background-color: rgb(0, 0, 0); -unity-background-scale-mode: scale-and-crop; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-self: center;">
+                    <engine:Label text="1 / 1" name="LblBaseNums" style="-unity-font-style: bold; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-text-align: middle-right;" />
+                </engine:Button>
+                <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-top: 10px;">
+                    <engine:Button text="＜" name="BtnBackSelectBase" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                    <engine:Button text="＞" name="BtnNextSelectBase" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                    <engine:Button text="×" name="BtnDeleteSelectBase" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="DivBack" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(166, 166, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 5px; padding-right: 20px; padding-bottom: 10px; padding-left: 20px; flex-direction: column; align-items: center; flex-shrink: 0;">
+                <engine:Label text="Front" style="-unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 20px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51847451656192)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Button name="BtnDisplayBack" style="width: 140px; height: 210px; background-color: rgb(0, 0, 0); -unity-background-scale-mode: scale-and-crop; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-self: center;">
+                    <engine:Label text="1 / 1" name="LblBackNums" style="-unity-font-style: bold; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-text-align: middle-right;" />
+                </engine:Button>
+                <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-top: 10px;">
+                    <engine:Button text="＜" name="BtnBackSelectBack" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                    <engine:Button text="＞" name="BtnNextSelectBack" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                    <engine:Button text="×" name="BtnDeleteSelectBack" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement name="DivFront" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(166, 166, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 5px; padding-right: 20px; padding-left: 20px; flex-direction: column; padding-bottom: 10px; align-items: center; flex-shrink: 0;">
+                <engine:Label text="Front" style="-unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 20px;">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(51992046092288)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:Button name="BtnDisplayFront" style="width: 140px; height: 210px; background-color: rgb(0, 0, 0); -unity-background-scale-mode: scale-and-crop; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); align-self: center;">
+                    <engine:Label text="1 / 1" name="LblFrontNums" style="-unity-font-style: bold; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-text-align: middle-right;" />
+                </engine:Button>
+                <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-top: 10px;">
+                    <engine:Button text="＜" name="BtnBackSelectFront" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                    <engine:Button text="＞" name="BtnNextSelectFront" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                    <engine:Button text="×" name="BtnDeleteSelectFront" style="border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,3 @@
+Button:hover {
+    background-color: rgb(53, 58, 181);
+}

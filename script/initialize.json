@@ -1,0 +1,68 @@
+{
+  "id": "initialize",
+  "methods": [
+    {
+      "name": "init",
+      "process": [
+        {
+          "cmd": "chg_script",
+          "method": "init_group"
+        },
+        {
+          "cmd": "chg_script",
+          "name": "stage_0001",
+          "method": "setup"
+        }
+      ]
+    },
+    {
+      "name": "init_group",
+      "process": [
+        {
+          "cmd": "add_group",
+          "group_id": 1,
+          "name": "自軍",
+          "color": {
+            "r": 153,
+            "g": 153,
+            "b": 255,
+            "a": 255
+          },
+          "player": true,
+          "friendly": [
+            3
+          ]
+        },
+        {
+          "cmd": "add_group",
+          "group_id": 2,
+          "name": "敵軍",
+          "color": {
+            "r": 255,
+            "g": 153,
+            "b": 153,
+            "a": 255
+          },
+          "turning": true,
+          "player": false,
+          "music": "light_and_shadow.ogg"
+        },
+        {
+          "cmd": "add_group",
+          "group_id": 3,
+          "name": "友軍",
+          "color": {
+            "r": 153,
+            "g": 255,
+            "b": 153,
+            "a": 255
+          },
+          "player": false,
+          "friendly": [
+            1
+          ]
+        }
+      ]
+    }
+  ]
+}

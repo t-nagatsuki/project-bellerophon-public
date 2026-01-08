@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="BattleStatus" src="project://database/Assets/UserInterfaces/BattleConfirmWindow/BattleStatus.uxml?fileID=9197481963319205126&amp;guid=df7d82cbfa115b7479fb5850fbe38420&amp;type=3#BattleStatus" />
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-left: 50px; margin-right: 50px; margin-top: 150px; margin-bottom: 150px; flex-shrink: 0;">
+        <engine:VisualElement name="Own" style="flex-grow: 0; flex-shrink: 0; margin-right: 0; width: 50%; padding-right: 25px;">
+            <engine:Instance template="BattleStatus" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Target" style="flex-grow: 0; flex-shrink: 0; margin-left: 0; width: 50%; padding-left: 25px;">
+            <engine:Instance template="BattleStatus" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

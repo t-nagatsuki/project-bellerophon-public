@@ -1,0 +1,5 @@
+﻿var power = 0;
+power += global.attack_weapon.attack_power;
+power += (global.attack_weapon.attack_power * (global.attack_chara.intention + global.attack_unit.unit.power) / 100);
+power += 40 * global.weapon_hit_bonus;
+return power;

@@ -1,0 +1,73 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserInterfaces/MapEditor/MapEditor.uss?fileID=7433441132597879392&amp;guid=e4c45b1dc7d837b49b33ba1f1cc0ad1a&amp;type=3#MapEditor" />
+    <engine:VisualElement name="div-top-toolbar" style="background-color: rgb(128, 128, 128); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-direction: row; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:Button text="新規" name="BtnNew" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49425090101248)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="保存" name="BtnSave" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49048768757760)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="読込" name="BtnLoad" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(537977176064)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="設定" name="BtnSettings" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(671934857216)" />
+            </Bindings>
+        </engine:Button>
+        <engine:Label text="高さ" style="font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(55841783824384)" />
+            </Bindings>
+        </engine:Label>
+        <engine:SliderInt value="0" high-value="3" low-value="0" show-input-field="true" name="SlideHeight" focusable="false" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; width: 150px;" />
+        <engine:Toggle label="Grid" name="TglGrid" value="true" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(55841783824384)" />
+            </Bindings>
+        </engine:Toggle>
+        <engine:Toggle label="通行可否" name="TglCollision" value="true" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(55899770077184)" />
+            </Bindings>
+        </engine:Toggle>
+        <engine:Toggle label="BGM" name="TglMusic" value="false" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(56608838139904)" />
+            </Bindings>
+        </engine:Toggle>
+        <engine:DropdownField label="マップID" name="DrpMapId" style="font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-grow: 1;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(56644581998592)" />
+            </Bindings>
+        </engine:DropdownField>
+        <engine:Button text="＋" name="BtnAddMap" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 4px;" />
+        <engine:Button text="－" name="BtnDeleteMap" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 20px;" />
+        <engine:Button name="BtnClose" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 0; margin-left: 4px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=06aef140313924f458dc67584d5824db&amp;type=3#arrow-left&quot;);" />
+    </engine:VisualElement>
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row-reverse; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement name="div-tool-window" style="flex-grow: 0; flex-direction: column; width: 30%;">
+            <engine:VisualElement name="DivTileSet" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.49); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-direction: row; flex-shrink: 0;">
+                <engine:Label text="タイルセット" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: normal; font-size: 25px; color: rgb(255, 255, 255);">
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49635287646208)" />
+                    </Bindings>
+                </engine:Label>
+                <engine:DropdownField name="DrpTileSet" style="-unity-font-style: normal; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-grow: 1;" />
+                <engine:Button name="BtnTileSetting" style="font-size: 25px; -unity-font-style: bold; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); background-image: url(&quot;project://database/Assets/Packages/Utf8StreamReader.1.3.1/Icon.png?fileID=2800000&amp;guid=bd04e78a66bf2a8488dd4b793bdec409&amp;type=3#Icon&quot;); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; display: none;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="DivTileWindow" style="flex-grow: 1; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.49); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+                <engine:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="AlwaysVisible" name="ScrTiles" style="flex-grow: 1; background-color: rgb(0, 0, 0);">
+                    <engine:VisualElement name="DivTiles" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap;" />
+                </engine:ScrollView>
+            </engine:VisualElement>
+            <engine:VisualElement name="DivDebug" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.49); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-shrink: 0;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,525 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 588573a109b85eb44b868ac871fd751c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 407387521024
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 537977176064
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 671934857216
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 708278501376
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 760757633024
+    m_Localized: Tools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 811093475328
+    m_Localized: Tile Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 882874793984
+    m_Localized: Map Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49048768757760
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49425090101248
+    m_Localized: New
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49635287646208
+    m_Localized: Tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49811318390784
+    m_Localized: Tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50220611158016
+    m_Localized: Hide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50414081818624
+    m_Localized: Moving Cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50847139512320
+    m_Localized: Space
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50909060022272
+    m_Localized: Sky
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50914395176960
+    m_Localized: Ground
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50915712188416
+    m_Localized: Underwater
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51455884017664
+    m_Localized: Height Modifier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51706283966464
+    m_Localized: Layer Color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51774953111552
+    m_Localized: Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51847451656192
+    m_Localized: Deco(Back)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51992046092288
+    m_Localized: Deco(Front)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52374046523392
+    m_Localized: Flip L/R
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52764670443520
+    m_Localized: Animation Speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53045835612160
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53150294753280
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53550242611200
+    m_Localized: Load File
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53723563835392
+    m_Localized: Load Tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54071942725632
+    m_Localized: Tileset Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54241400995840
+    m_Localized: File Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54323777126400
+    m_Localized: Tileset ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54407835172864
+    m_Localized: Tile ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54496087523328
+    m_Localized: Tile Base Size(px)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55534651719680
+    m_Localized: Height
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55841783824384
+    m_Localized: Grid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55899770077184
+    m_Localized: Accessibility
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56608838139904
+    m_Localized: BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56644581998592
+    m_Localized: Map ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57223421116416
+    m_Localized: Load map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63172055678976
+    m_Localized: Map BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63251143475200
+    m_Localized: Map Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63332148068352
+    m_Localized: Default Tileset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63332752048128
+    m_Localized: Default Tile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63840560627712
+    m_Localized: Map Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147103778095104
+    m_Localized: Window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147282694520832
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147361992032256
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147458024816640
+    m_Localized: Window Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147683024060416
+    m_Localized: Window Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147796140244992
+    m_Localized: Apply
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151436984860672
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355312051044352
+    m_Localized: Hit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355425808957440
+    m_Localized: Critical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356331283693568
+    m_Localized: Victory conditions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356479040634880
+    m_Localized: "\rDefeat condition"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4402849428553728
+    m_Localized: Units
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4402935239819264
+    m_Localized: Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4403283631292416
+    m_Localized: Sortie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4422746942488576
+    m_Localized: Locale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612233303703552
+    m_Localized: Unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612293877841920
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612434651267072
+    m_Localized: Weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4612850759778304
+    m_Localized: Suitability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613285285478400
+    m_Localized: Accuracy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613402210091008
+    m_Localized: Maneuver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613423697510400
+    m_Localized: Power
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613431742185472
+    m_Localized: Armor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613542505365504
+    m_Localized: Reduction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4613594883833856
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614350030520320
+    m_Localized: Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614647138238464
+    m_Localized: Concentration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614715031437312
+    m_Localized: Reaction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614774364061696
+    m_Localized: Ability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614838499164160
+    m_Localized: Perception
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4614943105105920
+    m_Localized: Intention
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4615026567561216
+    m_Localized: Endurance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4615100097904640
+    m_Localized: Expertise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616009959882752
+    m_Localized: Skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616278554722304
+    m_Localized: Weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616396049760256
+    m_Localized: Range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4616458993680384
+    m_Localized: 'Suitability
+
+      (S.A.G.W)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4617002520952832
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4617188957765632
+    m_Localized: Bullets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4617404373024768
+    m_Localized: EN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4618152917876736
+    m_Localized: Suitability
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4618648042881024
+    m_Localized: List
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4628502354608128
+    m_Localized: Turn End
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4630411773755392
+    m_Localized: Victory conditions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4634673169842176
+    m_Localized: Status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4634901440643072
+    m_Localized: Completed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635152775921664
+    m_Localized: Withdrawal of placement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635503402958848
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635563230511104
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635580984999936
+    m_Localized: Wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635829560426496
+    m_Localized: Flying
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635891313164288
+    m_Localized: Landing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635923491864576
+    m_Localized: Diving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4635709385228288
+    m_Localized: Aerospace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638035013550080
+    m_Localized: Counter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638102223077376
+    m_Localized: Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638178198700032
+    m_Localized: Avoidance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4638797919698944
+    m_Localized: Reduction rate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70322943719960576
+    m_Localized: Void
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70337179930128384
+    m_Localized: Unit Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70337183415595008
+    m_Localized: Character Editor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70339976901750784
+    m_Localized: Load Units
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70339992789774336
+    m_Localized: Load Characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072387969118208
+    m_Localized: Character ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072411411083264
+    m_Localized: Unit ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072775485059072
+    m_Localized: Character Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71072821962141696
+    m_Localized: Unit Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71073623481053184
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71073660906827776
+    m_Localized: Unit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71410560902262784
+    m_Localized: Character Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71410642078822400
+    m_Localized: Unit Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72117864374267904
+    m_Localized: HP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72117899560284160
+    m_Localized: EN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72117930610716672
+    m_Localized: SP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72182658167009280
+    m_Localized: Growth value
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72186316053082112
+    m_Localized: Lv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72438591431274496
+    m_Localized: Image
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72556386361077760
+    m_Localized: Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72556684001472512
+    m_Localized: Weapon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72556964420055040
+    m_Localized: Battle message
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73642765644001280
+    m_Localized: Image
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

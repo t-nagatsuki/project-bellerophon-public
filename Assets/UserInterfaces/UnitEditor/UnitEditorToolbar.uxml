@@ -1,0 +1,165 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement picking-mode="Ignore" name="div-top-toolbar" style="background-color: rgb(128, 128, 128); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-direction: row; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:Button text="&#26032;&#35215;" name="BtnNew" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49425090101248)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="&#20445;&#23384;" name="BtnSave" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(49048768757760)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="&#35501;&#36796;" name="BtnLoad" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(537977176064)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="&#35373;&#23450;" name="BtnSettings" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(671934857216)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:VisualElement style="flex-grow: 1;"/>
+        <engine:Button text="&#35373;&#23450;" name="BtnTabBase" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72556386361077760)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="&#35373;&#23450;" name="BtnTabImage" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(73642765644001280)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:Button text="&#35373;&#23450;" name="BtnTabWeapon" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 10px;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72556684001472512)"/>
+            </Bindings>
+        </engine:Button>
+        <engine:VisualElement style="flex-grow: 1;"/>
+        <engine:DropdownField label="&#12479;&#12452;&#12523;" name="DrpUnit" style="font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-grow: 1;">
+            <Bindings>
+                <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(71073660906827776)"/>
+            </Bindings>
+        </engine:DropdownField>
+        <engine:Button text="&#65291;" name="BtnAdd" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 4px;"/>
+        <engine:Button text="&#65293;" name="BtnDelete" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 20px;"/>
+        <engine:Button name="BtnClose" style="-unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); font-size: 25px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; padding-top: 15px; padding-right: 20px; padding-bottom: 15px; padding-left: 20px; margin-right: 0; margin-left: 4px; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=06aef140313924f458dc67584d5824db&amp;type=3#arrow-left&quot;);"/>
+    </engine:VisualElement>
+    <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; flex-direction: row-reverse; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement name="div-tool-window" style="flex-grow: 1; flex-direction: row; flex-shrink: 0; justify-content: center;">
+            <engine:VisualElement name="DivSettingLeft" style="-unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(165, 165, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; flex-shrink: 0; width: 50%;">
+                <engine:ScrollView horizontal-scroller-visibility="Hidden" style="flex-grow: 1; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-shrink: 0; height: 100%; width: auto; -unity-text-align: middle-left;">
+                    <engine:VisualElement style="flex-grow: 0; flex-direction: row; flex-shrink: 0; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                        <engine:VisualElement name="" style="flex-grow: 0; flex-shrink: 0; width: 25%;">
+                            <engine:VisualElement name="Image" style="flex-grow: 1; padding-top: 100%; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; flex-shrink: 0;"/>
+                        </engine:VisualElement>
+                        <engine:VisualElement name="VisualElement" style="flex-grow: 0; padding-left: 10px; flex-shrink: 0; width: 75%;">
+                            <engine:TextField placeholder-text="" name="TxtUnitId" label="" readonly="true" style="flex-grow: 0; margin-bottom: 5px;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(71072411411083264)"/>
+                                </Bindings>
+                            </engine:TextField>
+                            <engine:TextField placeholder-text="" name="TxtUnitName" max-length="20" label="" style="flex-grow: 0; margin-bottom: 5px;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(71410642078822400)"/>
+                                </Bindings>
+                            </engine:TextField>
+                            <engine:DropdownField label="" name="DrpImage" style="flex-grow: 0; flex-shrink: 0;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72438591431274496)"/>
+                                </Bindings>
+                            </engine:DropdownField>
+                            <engine:VisualElement style="flex-grow: 1; flex-direction: row;"/>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <engine:GroupBox text="&#31227;&#21205;&#12467;&#12473;&#12488;" name="GrpSuitable" style="-unity-text-align: middle-left; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-wrap: nowrap;">
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                            <engine:EnumField label="Enum" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmSpace" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50847139512320)"/>
+                                </Bindings>
+                            </engine:EnumField>
+                            <engine:EnumField label="Enum" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmAir" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50909060022272)"/>
+                                </Bindings>
+                            </engine:EnumField>
+                        </engine:VisualElement>
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4612850759778304)"/>
+                        </Bindings>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                            <engine:EnumField label="Enum" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmGround" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50914395176960)"/>
+                                </Bindings>
+                            </engine:EnumField>
+                            <engine:EnumField label="Enum" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmUnderwater" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50915712188416)"/>
+                                </Bindings>
+                            </engine:EnumField>
+                        </engine:VisualElement>
+                    </engine:GroupBox>
+                    <engine:GroupBox text="&#31227;&#21205;&#12467;&#12473;&#12488;" name="GrpStatus" style="-unity-text-align: middle-left; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; flex-wrap: nowrap;">
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                            <engine:TextField label="" placeholder-text="0" name="TxtHP" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72117864374267904)"/>
+                                </Bindings>
+                            </engine:TextField>
+                            <engine:TextField label="" placeholder-text="0" name="TxtEN" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72117899560284160)"/>
+                                </Bindings>
+                            </engine:TextField>
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                            <engine:TextField label="" placeholder-text="0" name="TxtAccuracy" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613285285478400)"/>
+                                </Bindings>
+                            </engine:TextField>
+                            <engine:TextField label="" placeholder-text="0" name="TxtManeuver" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613402210091008)"/>
+                                </Bindings>
+                            </engine:TextField>
+                        </engine:VisualElement>
+                        <Bindings>
+                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4634673169842176)"/>
+                        </Bindings>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                            <engine:TextField label="" placeholder-text="0" name="TxtPower" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613423697510400)"/>
+                                </Bindings>
+                            </engine:TextField>
+                            <engine:TextField label="" placeholder-text="0" name="TxtArmor" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613431742185472)"/>
+                                </Bindings>
+                            </engine:TextField>
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px;">
+                            <engine:TextField label="" placeholder-text="0" name="TxtReduction" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613542505365504)"/>
+                                </Bindings>
+                            </engine:TextField>
+                            <engine:TextField label="" placeholder-text="0" name="TxtMove" keyboard-type="NumberPad" style="flex-grow: 1;">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613594883833856)"/>
+                                </Bindings>
+                            </engine:TextField>
+                        </engine:VisualElement>
+                    </engine:GroupBox>
+                </engine:ScrollView>
+            </engine:VisualElement>
+            <engine:VisualElement name="DivSettingRight" style="-unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgb(165, 165, 209); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; width: 50%;">
+                <engine:ScrollView horizontal-scroller-visibility="Hidden" name="" style="flex-grow: 1; font-size: 25px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); flex-shrink: 0; height: 100%; width: auto;"/>
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

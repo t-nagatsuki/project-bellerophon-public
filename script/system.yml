@@ -1,0 +1,26 @@
+id: system
+methods:
+  - name: end_turn
+    process:
+      - cmd: end_turn
+  - name: save
+    process:
+      - cmd: save
+  - name: load
+    process:
+      - cmd: load
+  - name: condition_list
+    process:
+      - cmd: condition_list
+  - name: unit_list
+    process:
+      - cmd: unit_list
+  - name: chara_list
+    process:
+      - cmd: chara_list
+  - name: settings
+    process:
+      - cmd: system_settings
+  - name: exit
+    process:
+      - cmd: exit

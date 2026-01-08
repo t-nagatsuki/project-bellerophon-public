@@ -1,0 +1,353 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserInterfaces/StatusWindow/StatusWindow.uss?fileID=7433441132597879392&amp;guid=5c47d8ba138dcf5498b46b4b038dd7b5&amp;type=3#StatusWindow"/>
+    <engine:VisualElement name="DivSystemWindow" style="flex-grow: 1; flex-direction: column; width: auto; padding-top: 50px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement name="DivStatus" style="flex-grow: 1; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.86); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+            <engine:TabView name="TabView" style="flex-grow: 1; flex-shrink: 0; -unity-font-style: bold; font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+                <engine:Tab label="&#12518;&#12491;&#12483;&#12488;&#24773;&#22577;" name="TabUnit" style="flex-grow: 1; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+                    <engine:VisualElement style="flex-grow: 1; flex-shrink: 0; align-items: stretch;">
+                        <engine:VisualElement style="flex-grow: 0; flex-direction: row; flex-shrink: 0; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                            <engine:VisualElement name="VisualElement" style="flex-grow: 0; flex-shrink: 0; width: 25%;">
+                                <engine:VisualElement name="UnitImage" style="flex-grow: 1; padding-top: 100%; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; flex-shrink: 0;"/>
+                            </engine:VisualElement>
+                            <engine:VisualElement name="VisualElement" style="flex-grow: 0; padding-left: 10px; flex-shrink: 0; width: 75%;">
+                                <engine:VisualElement template="DataDisplay" name="DivUnitName">
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                        <engine:Label text="Unit Name" name="LblUnitName" style="color: rgb(255, 255, 255); font-size: 50px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-left; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); margin-bottom: 20px; margin-left: 20px;"/>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 0; flex-direction: row;">
+                                    <engine:VisualElement template="DataDisplay" name="DivHP" style="flex-grow: 0; margin-right: 10px; width: 60%;">
+                                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                            <engine:Label text="HP" name="LblHPTitle" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+                                                <Bindings>
+                                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72117864374267904)"/>
+                                                </Bindings>
+                                            </engine:Label>
+                                            <engine:ProgressBar value="50" title="0 / 0" name="BarHP" style="flex-grow: 0; font-size: 20px; justify-content: center; width: 75%;"/>
+                                        </engine:VisualElement>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement template="DataDisplay" name="DivEN" style="flex-grow: 0; margin-left: 10px; width: 40%;">
+                                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                            <engine:Label text="EN" name="LblENTitle" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+                                                <Bindings>
+                                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72117899560284160)"/>
+                                                </Bindings>
+                                            </engine:Label>
+                                            <engine:ProgressBar value="50" title="0 / 0" name="BarEN" style="flex-grow: 0; font-size: 20px; justify-content: center; width: 75%;"/>
+                                        </engine:VisualElement>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 20px; margin-bottom: 20px;">
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="&#31934;&#24230;" name="LblAccuracyTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613285285478400)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#35013;&#30002;" name="LblArmorTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613431742185472)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="000" name="LblAccuracy" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblArmor" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="&#27231;&#21205;" name="LblManeuverTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613402210091008)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#36605;&#28187;" name="LblReductionTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613542505365504)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="000" name="LblManeuver" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblReduction" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="&#20986;&#21147;" name="LblPowerTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613423697510400)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#31227;&#21205;" name="LblMoveTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4613594883833856)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="000" name="LblPower" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblMove" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 20px;">
+                            <engine:VisualElement style="flex-grow: 1; margin-right: 20px;">
+                                <engine:VisualElement style="flex-grow: 1; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgba(255, 255, 255, 0.5); height: 60px; justify-content: center; max-height: 60px; min-height: 60px;">
+                                    <engine:Label text="&#22320;&#24418;&#36969;&#27491;" style="color: rgb(0, 0, 0);">
+                                        <Bindings>
+                                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4612850759778304)"/>
+                                        </Bindings>
+                                    </engine:Label>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 10px;">
+                                    <engine:VisualElement style="flex-grow: 1;">
+                                        <engine:Label text="&#23431;&#23449;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50847139512320)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#31354;&#20013;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50909060022272)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#22320;&#19978;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50914395176960)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#27700;&#20013;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50915712188416)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1;">
+                                        <engine:Label text="E" name="LblUnitSpace" style="color: rgb(255, 255, 255);"/>
+                                        <engine:Label text="E" name="LblUnitAir" style="color: rgb(255, 255, 255);"/>
+                                        <engine:Label text="E" name="LblUnitGround" style="color: rgb(255, 255, 255);"/>
+                                        <engine:Label text="E" name="LblUnitUnderwater" style="color: rgb(255, 255, 255);"/>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                            <engine:VisualElement style="flex-grow: 8;">
+                                <engine:VisualElement style="flex-grow: 1; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgba(255, 255, 255, 0.5); justify-content: center; height: 60px; max-height: 60px; min-height: 60px;">
+                                    <engine:Label text="&#29305;&#27530;&#33021;&#21147;" style="color: rgb(0, 0, 0);">
+                                        <Bindings>
+                                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614350030520320)"/>
+                                        </Bindings>
+                                    </engine:Label>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 1; margin-top: 10px;">
+                                    <engine:ListView name="ListSpecial" style="flex-grow: 1;"/>
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4612233303703552)"/>
+                    </Bindings>
+                </engine:Tab>
+                <engine:Tab label="&#12461;&#12515;&#12521;&#12463;&#12479;&#12540;&#24773;&#22577;" name="TabCharacter" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); flex-grow: 1;">
+                    <engine:VisualElement style="flex-grow: 1; flex-shrink: 0; flex-direction: column;">
+                        <engine:VisualElement style="flex-grow: 0; flex-direction: row; flex-shrink: 0; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;">
+                            <engine:VisualElement name="VisualElement" style="flex-grow: 0; flex-shrink: 0; width: 25%;">
+                                <engine:VisualElement name="Image" style="flex-grow: 1; padding-top: 100%; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; flex-shrink: 0;"/>
+                            </engine:VisualElement>
+                            <engine:VisualElement name="VisualElement" style="flex-grow: 0; padding-left: 10px; flex-shrink: 0; width: 75%;">
+                                <engine:VisualElement template="DataDisplay" name="DivCharacterName">
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                        <engine:Label text="Character Name" name="LblCharacterName" style="color: rgb(255, 255, 255); font-size: 50px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-left; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); margin-left: 20px; margin-bottom: 20px;"/>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 0; flex-direction: row; margin-left: 0;">
+                                    <engine:VisualElement template="DataDisplay" name="DivEXP" style="flex-grow: 0; margin-right: 10px; width: 50%; padding-left: 70px;">
+                                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                            <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                                <engine:Label text="Lv." name="LblLVTitle" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+                                                    <Bindings>
+                                                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72186316053082112)"/>
+                                                    </Bindings>
+                                                </engine:Label>
+                                                <engine:Label text="999" name="LblLV" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-left; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);"/>
+                                            </engine:VisualElement>
+                                            <engine:ProgressBar value="50" title="0 / 0" name="BarEXP" style="flex-grow: 0; font-size: 20px; justify-content: center; width: 75%; margin-left: 4px; padding-left: 20px;"/>
+                                        </engine:VisualElement>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement template="DataDisplay" name="DivSP" style="flex-grow: 0; margin-left: 10px; width: 50%;">
+                                        <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                                            <engine:Label text="SP" name="LblSPTitle" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+                                                <Bindings>
+                                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(72117930610716672)"/>
+                                                </Bindings>
+                                            </engine:Label>
+                                            <engine:ProgressBar value="50" title="0 / 0" name="BarSP" style="flex-grow: 0; font-size: 20px; justify-content: center; width: 75%;"/>
+                                        </engine:VisualElement>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 20px; margin-bottom: 20px;">
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="&#38598;&#20013;" name="LblConcentrationTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614647138238464)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#30693;&#35226;" name="LblPerceptionTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614838499164160)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#29087;&#32244;" name="LblExpertiseTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4615100097904640)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="000" name="LblConcentration" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblPerception" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblExpertise" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="&#21453;&#24540;" name="LblReactionTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614715031437312)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#24847;&#24605;" name="LblIntentionTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614943105105920)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="000" name="LblReaction" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblIntention" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="&#25216;&#37327;" name="LblAbilityTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614774364061696)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#32784;&#20037;" name="LblEnduranceTitle" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4615026567561216)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1; flex-direction: column;">
+                                        <engine:Label text="000" name="LblAbility" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                        <engine:Label text="000" name="LblEndurance" style="color: rgb(255, 255, 255); -unity-font-style: normal;"/>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                        <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 20px;">
+                            <engine:VisualElement style="flex-grow: 1; margin-right: 20px;">
+                                <engine:VisualElement style="flex-grow: 1; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgba(255, 255, 255, 0.5); height: 60px; justify-content: center; max-height: 60px; min-height: 60px;">
+                                    <engine:Label text="&#22320;&#24418;&#36969;&#27491;" style="color: rgb(0, 0, 0);">
+                                        <Bindings>
+                                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4612850759778304)"/>
+                                        </Bindings>
+                                    </engine:Label>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 10px;">
+                                    <engine:VisualElement style="flex-grow: 1;">
+                                        <engine:Label text="&#23431;&#23449;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50847139512320)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#31354;&#20013;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50909060022272)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#22320;&#19978;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50914395176960)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                        <engine:Label text="&#27700;&#20013;" style="color: rgb(255, 255, 255);">
+                                            <Bindings>
+                                                <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(50915712188416)"/>
+                                            </Bindings>
+                                        </engine:Label>
+                                    </engine:VisualElement>
+                                    <engine:VisualElement style="flex-grow: 1;">
+                                        <engine:Label text="E" name="LblSpace" style="color: rgb(255, 255, 255);"/>
+                                        <engine:Label text="E" name="LblAir" style="color: rgb(255, 255, 255);"/>
+                                        <engine:Label text="E" name="LblGround" style="color: rgb(255, 255, 255);"/>
+                                        <engine:Label text="E" name="LblUnderwater" style="color: rgb(255, 255, 255);"/>
+                                    </engine:VisualElement>
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                            <engine:VisualElement style="flex-grow: 8;">
+                                <engine:VisualElement style="flex-grow: 1; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; background-color: rgba(255, 255, 255, 0.5); justify-content: center; height: 60px; max-height: 60px; min-height: 60px;">
+                                    <engine:Label text="&#29305;&#27530;&#33021;&#21147;" style="color: rgb(0, 0, 0);">
+                                        <Bindings>
+                                            <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4614350030520320)"/>
+                                        </Bindings>
+                                    </engine:Label>
+                                </engine:VisualElement>
+                                <engine:VisualElement style="flex-grow: 1; margin-top: 10px;">
+                                    <engine:ListView name="ListSpecial" style="flex-grow: 1;"/>
+                                </engine:VisualElement>
+                            </engine:VisualElement>
+                        </engine:VisualElement>
+                    </engine:VisualElement>
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4612293877841920)"/>
+                    </Bindings>
+                </engine:Tab>
+                <engine:Tab label="&#27494;&#35013;&#24773;&#22577;" name="TabWeapon" style="padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 1;">
+                    <engine:VisualElement style="flex-grow: 1; flex-shrink: 0; align-items: stretch;">
+                        <engine:VisualElement template="WeaponMenuButton" style="flex-direction: row; margin-bottom: 10px;">
+                            <Style src="project://database/Assets/UserInterfaces/CommandMenu/CommandMenu.uss?fileID=7433441132597879392&amp;guid=dddd1e0484be0e843979381a8cc59ace&amp;type=3#CommandMenu"/>
+                            <engine:Label text="&#27494;&#35013;" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 25%; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616278554722304)"/>
+                                </Bindings>
+                            </engine:Label>
+                            <engine:Label text="&#23556;&#31243;" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616396049760256)"/>
+                                </Bindings>
+                            </engine:Label>
+                            <engine:Label text="&#22320;&#24418;&#36969;&#27491;
+(&#23431;&#31354;&#22320;&#27700;)" enable-rich-text="true" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616458993680384)"/>
+                                </Bindings>
+                            </engine:Label>
+                            <engine:Label text="&#23041;&#21147;" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4617002520952832)"/>
+                                </Bindings>
+                            </engine:Label>
+                            <engine:Label text="&#27531;&#24382;" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4617188957765632)"/>
+                                </Bindings>
+                            </engine:Label>
+                            <engine:Label text="&#28040;&#36027;EN" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 0; width: 10%; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4617404373024768)"/>
+                                </Bindings>
+                            </engine:Label>
+                            <engine:Label text="&#29305;&#27530;&#21177;&#26524;" style="font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-font-style: bold; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; flex-grow: 1; background-color: rgb(30, 30, 80);">
+                                <Bindings>
+                                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4616009959882752)"/>
+                                </Bindings>
+                            </engine:Label>
+                        </engine:VisualElement>
+                        <engine:VisualElement name="DivWeapon" style="flex-grow: 1; margin-top: 20px;"/>
+                    </engine:VisualElement>
+                    <Bindings>
+                        <UnityEngine.Localization.LocalizedString property="label" table="GUID:588573a109b85eb44b868ac871fd751c" entry="Id(4612434651267072)"/>
+                    </Bindings>
+                </engine:Tab>
+            </engine:TabView>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,11 @@
+﻿// クリティカル率
+var critical = 0;
+critical += (global.attack_chara.ability * 2);
+critical += global.attack_weapon.critical;
+critical += (global.weapon_hit_bonus / 2);
+
+// 抵抗力
+var reduction = 0;
+reduction += global.defend_chara.perception + global.defend_unit.unit.reduction;
+
+return global.calc_hit_result * (critical - reduction) / 100.0;

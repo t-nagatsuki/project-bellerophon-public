@@ -1,0 +1,1645 @@
+{
+	"tiles": [
+		{
+			"id": "ts_city_01",
+			"pixels": 32,
+			"tile": [			
+				{
+					"name": "concrete_01",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "soil_01",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"rules": [
+							{
+								"output": "random",
+								"resource": "BLRP_maptex_city_01.png",
+								"perlin": 0.5,
+								"pos": [
+									{
+										"x": 128,
+										"y": 0
+									},
+									{
+										"x": 192,
+										"y": 0
+									},
+									{
+										"x": 256,
+										"y": 0
+									}
+								]
+							}
+						]
+					}
+				},
+
+
+				{
+					"name": "road_str",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_str_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "road_cross",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_sect_01",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_sect_01_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "road_sect_02",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_sect_02_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "road_curve_01",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 256,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_curve_01_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 256,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "road_curve_02",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 320,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_curve_03",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 192
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_end_01",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 192
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "road_end_01_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 192
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+
+
+
+				{
+					"name": "waterfront_none",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},		
+				{
+					"name": "waterfront_side_01",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_side_01_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},		
+				{
+					"name": "waterfront_side_02",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_side_02_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+
+
+
+				{
+					"name": "waterfront_edge_01",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "waterfront_edge_01_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_edge_02",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_edge_03",
+					"collision": true,
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+
+
+
+
+				{
+					"name": "waterfront_path",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_path_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "waterfront_corner_01",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_corner_01_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "waterfront_corner_02",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_corner_02_inv",
+					"collision": true,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "underwater",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 96
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+
+
+
+
+				{
+					"name": "waterfront_bridge",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 256,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "waterfront_bridge_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					},
+					"overlay_back": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					},
+					"overlay_front": {
+						"resource": "BLRP_maptex_city_02.png",
+						"pos": [
+							{
+								"x": 256,
+								"y": 0
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+
+				
+				{
+					"name": "parking_road_01",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "parking_road_01_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 0,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "parking_road_02",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "parking_road_02_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 64,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "parking_rot_00",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 128,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "parking_rot_01",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "parking_rot_01_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 192,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				},
+				{
+					"name": "parking_rot_02",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 256,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						}
+					}
+				},
+				{
+					"name": "parking_rot_02_inv",
+					"collision": false,
+					"suitable": [
+						{
+							"move_type": "air",
+							"cost": 0.5
+						},
+						{
+							"move_type": "ground",
+							"cost": 0.5
+						}
+					],
+					"base_layer": {
+						"resource": "BLRP_maptex_city_01.png",
+						"pos": [
+							{
+								"x": 256,
+								"y": 288
+							}
+						],
+						"color": {
+							"r": 255,
+							"g": 255,
+							"b": 255,
+							"a": 255
+						},
+						"flip_x": true
+					}
+				}
+
+
+
+
+
+
+			]
+		}
+	]
+}

@@ -1,0 +1,335 @@
+{
+    "tiles": [
+        {
+            "id": "ts_build_01",
+            "pixels": 32,
+            "tile": [
+                {
+                    "name": "building_01_norail",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "building_01_rail_01",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "building_01_rail_01_inv",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+						"flip_x": true
+                    }
+                },
+                {
+                    "name": "building_01_rail_02",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 128,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "building_01_rail_02_inv",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 128,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+						"flip_x": true
+                    }
+                },
+                {
+                    "name": "building_01_rail_03",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "building_01_rail_04",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 192,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                },
+                {
+                    "name": "building_01_rail_05",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 128,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+						"flip_x": true
+                    }
+                },
+                {
+                    "name": "building_01_rail_05_inv",
+                    "collision": true,
+                    "base_layer": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 64,
+                                "y": 0
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    },
+                    "overlay_back": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 0,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        },
+						"flip_x": true
+                    },
+                    "overlay_front": {
+                        "resource": "BLRP_maptex_city_03.png",
+                        "pos": [
+                            {
+                                "x": 128,
+                                "y": 96
+                            }
+                        ],
+                        "color": {
+                            "r": 255,
+                            "g": 255,
+                            "b": 255,
+                            "a": 255
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

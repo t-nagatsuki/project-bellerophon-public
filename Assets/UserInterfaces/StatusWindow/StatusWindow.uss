@@ -1,0 +1,49 @@
+.unity-tab__header {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(91, 91, 132);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -unity-font-definition: url("project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&guid=59c12f5bb92b8c54ba48a2d4bf3890bd&type=3#ipag");
+    flex-grow: 1;
+}
+
+.unity-tab-view__content-container {
+    flex-grow: 1;
+}
+
+.unity-tab__header:checked {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 99, 136);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    -unity-font-definition: url("project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&guid=59c12f5bb92b8c54ba48a2d4bf3890bd&type=3#ipag");
+    flex-grow: 1;
+}

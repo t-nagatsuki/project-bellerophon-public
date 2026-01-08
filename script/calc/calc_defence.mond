@@ -1,0 +1,18 @@
+﻿var defence = global.defend_unit.unit.armor + (global.defend_unit.unit.armor * global.defend_chara.endurance / 100.0);
+
+// リアクションによる修正
+switch (global.reaction)
+{
+    // 攻撃、反撃
+    case 1:
+        break;
+    // 防御
+    case 2:
+        defence *= 1.5;
+        break;
+    // 回避
+    case 3:
+        break;
+}
+
+return defence;

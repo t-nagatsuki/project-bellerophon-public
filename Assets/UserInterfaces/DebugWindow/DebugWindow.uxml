@@ -1,0 +1,9 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UserInterfaces/DebugWindow/DebugWindow.uss?fileID=7433441132597879392&amp;guid=5b79142d9da33d446b1b836b5922a17a&amp;type=3#DebugWindow" />
+    <engine:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row-reverse;">
+        <engine:VisualElement name="DivDebugWindow" style="flex-grow: 0; flex-direction: column; width: 30%;">
+            <engine:VisualElement name="DivSpace" style="flex-grow: 1;" />
+            <engine:VisualElement name="DivDebug" style="flex-grow: 0; display: flex; -unity-text-align: middle-center; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; background-color: rgba(0, 0, 50, 0.49); border-top-width: 4px; border-right-width: 4px; border-bottom-width: 4px; border-left-width: 4px; border-top-left-radius: 22px; border-top-right-radius: 22px; border-bottom-right-radius: 22px; border-bottom-left-radius: 22px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

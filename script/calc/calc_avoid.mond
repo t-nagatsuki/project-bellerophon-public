@@ -1,0 +1,21 @@
+﻿var avoid = 0;
+avoid += global.defend_chara.reaction;
+avoid += global.defend_unit.unit.maneuver;
+avoid += global.avoid_bonus;
+
+// リアクションによる修正
+switch (global.reaction)
+{
+    // 攻撃、反撃
+    case 1:
+        break;
+    // 防御
+    case 2:
+        break;
+    // 回避
+    case 3:
+        avoid *= 1.5;
+        break;
+}
+
+return avoid;

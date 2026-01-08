@@ -1,0 +1,29 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Button name="CharaRecord" style="flex-direction: row; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; height: 200px; margin-top: 0; margin-right: 0; margin-bottom: 20px; margin-left: 0; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; background-color: rgba(188, 188, 188, 0); -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);">
+        <engine:VisualElement name="DivImage" style="flex-grow: 0; width: 180px; height: 180px; flex-shrink: 0; align-self: center;">
+            <engine:VisualElement name="Image" style="flex-grow: 1; -unity-background-scale-mode: scale-and-crop; background-image: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=5923138177525885446&amp;guid=06aef140313924f458dc67584d5824db&amp;type=3#arrow-left&quot;); background-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 1; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;">
+            <engine:VisualElement template="DataDisplay" name="DivCharacterName">
+                <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                    <engine:Label text="Character Name" name="LblCharacterName" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-left; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                </engine:VisualElement>
+            </engine:VisualElement>
+            <engine:VisualElement template="DataDisplay" style="flex-direction: row;">
+                <engine:VisualElement template="DataDisplay" name="DivLv" style="width: 35%; padding-left: 10px; padding-right: 10px;">
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                        <engine:Label text="Lv. 999" name="LblLV" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-left; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                        <engine:ProgressBar value="50" title="0 / 0" name="BarEXP" style="flex-grow: 0; font-size: 20px; justify-content: center; width: 75%; padding-left: 10px;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement template="DataDisplay" name="DivSP" style="flex-grow: 1; padding-right: 10px; padding-left: 10px;">
+                    <engine:VisualElement style="flex-grow: 1; flex-direction: row;">
+                        <engine:Label text="SP" style="color: rgb(255, 255, 255); font-size: 30px; flex-grow: 1; -unity-font-style: bold; -unity-text-align: middle-left; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;);" />
+                        <engine:ProgressBar value="50" title="0 / 0" name="BarSP" style="flex-grow: 0; font-size: 20px; justify-content: center; width: 75%;" />
+                    </engine:VisualElement>
+                </engine:VisualElement>
+                <engine:VisualElement style="flex-grow: 0; width: 35%; flex-shrink: 0;" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:Button>
+</engine:UXML>

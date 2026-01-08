@@ -1,0 +1,10 @@
+﻿{
+  "id": "stage_0002",
+  "methods": [
+    {
+      "name": "setup",
+      "process": [
+      ]
+    }
+  ]
+}

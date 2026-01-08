@@ -1,0 +1,6 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="ConditionRecord" style="flex-grow: 1; flex-direction: row; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px;">
+        <engine:Label text="●" name="Head" style="color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-text-align: middle-left; width: 40px;" />
+        <engine:Label text="Test" name="Text" style="color: rgb(255, 255, 255); font-size: 30px; -unity-font-definition: url(&quot;project://database/Assets/UserInterfaces/Fonts/ipag.ttf?fileID=12800000&amp;guid=59c12f5bb92b8c54ba48a2d4bf3890bd&amp;type=3#ipag&quot;); -unity-text-align: middle-left;" />
+    </engine:VisualElement>
+</engine:UXML>

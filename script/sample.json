@@ -1,0 +1,173 @@
+{
+	"id": "sample",
+	"methods": [
+		{
+			"name": "sample",
+			"process": [
+				{
+					"cmd": "back_image",
+					"name": "FantasticDesert.png",
+					"color": { "r": 0, "g": 0, "b": 0, "a": 255 }
+				},
+				{
+					"cmd": "chg_map",
+					"name": "default_map"
+				},
+				{
+					"cmd": "back_image_color",
+					"color": { "r": 255, "g": 255, "b": 255, "a": 255 },
+					"fade": 1000
+				},
+				{
+					"cmd": "music",
+					"name": "tutorial.ogg",
+					"loop": true
+				},
+                {
+                  "cmd": "set_variable",
+                  "name": "test1",
+                  "value": "Test"
+                },
+                {
+                  "cmd": "input_variable",
+                  "name": "test1",
+                  "text": [
+                    "なにか入れてね"
+                  ],
+                  "min_num": 2,
+                  "max_num": 5
+                },
+				{
+					"cmd": "telop",
+					"text": ["${test1} Play"],
+					"time": 1,
+					"fade": 1
+				},
+				{
+					"cmd": "add_group",
+					"group_id": 1,
+					"name": "自軍",
+					"color": { "r": 153, "g": 153, "b": 255, "a": 255 },
+					"player": true,
+					"friendly": [ 3 ]
+				},
+				{
+					"cmd": "add_group",
+					"group_id": 2,
+					"name": "敵軍",
+					"color": { "r": 255, "g": 153, "b": 153, "a": 255 },
+					"turning": true,
+					"player": false
+				},
+				{
+					"cmd": "add_group",
+					"group_id": 3,
+					"name": "友軍",
+					"color": { "r": 153, "g": 255, "b": 153, "a": 255 },
+					"player": false,
+					"friendly": [ 1 ]
+				},
+				{
+					"cmd": "wait",
+					"time": 1
+				},
+				{
+					"cmd": "message",
+					"text": [
+						"テストメッセージ。\r\nhoge",
+						"メッセージその２"
+					]
+				},
+				{
+					"cmd": "wait",
+					"time": 1
+				},
+				{
+					"cmd": "view_center",
+					"pos": [ 0, 0 ]
+				},
+				{
+					"cmd": "wait",
+					"time": 0.1
+				},
+				{
+					"cmd": "view_center",
+					"pos": [ 5, 0 ]
+				},
+				{
+					"cmd": "wait",
+					"time": 0.1
+				},
+				{
+					"cmd": "view_center",
+					"pos": [ 10, 0 ]
+				},
+				{
+					"cmd": "back_image"
+				},
+				{
+					"cmd": "wait",
+					"time": 1
+				},
+				{
+					"cmd": "add_unit",
+					"pos": { "x": 9, "y": 7 },
+					"move_type": "ground",
+					"group_id": 1,
+					"unit_id": "grp0_0",
+					"chara_id": "grp0_0",
+					"unit": "test_0001",
+					"chara": "test_0001",
+					"lv": 5,
+					"animation": true
+				},
+				{
+					"cmd": "add_unit",
+					"pos": { "x": 1, "y": 8 },
+					"direction": 1,
+					"group_id": 2,
+					"unit_id": "grp1_0",
+					"chara_id": "grp1_0",
+					"unit": "test_0001",
+					"chara": "test_0001",
+					"lv": 1,
+					"chara_name": "TestA",
+					"animation": true,
+					"action_type": "destination",
+					"target_position": { "x":  10, "y": 6 }
+				},
+				{
+					"cmd": "add_unit",
+					"pos": { "x": 7, "y": 0 },
+					"direction": 3,
+					"group_id": 3,
+					"unit_id": "grp2_0",
+					"chara_id": "grp2_0",
+					"unit": "test_0001",
+					"chara": "test_0001",
+					"lv": 1,
+					"chara_name": "TestB",
+					"animation": true
+				},
+				{ "cmd": "stop_music" },
+				{
+					"cmd": "sound",
+					"id": "0",
+					"name": "Alarm.wav"
+				},
+				{
+					"cmd": "message",
+					"chara": "test_0001",
+					"text": [ "顔画像付きテスト" ]
+				},
+				{ "cmd": "stop_sound" },
+				{
+					"cmd": "move_unit",
+					"unit_id": "grp2_0",
+					"pos": { "x": 7, "y": 2 },
+					"animation": true
+				}
+			]
+		}
+	]
+}

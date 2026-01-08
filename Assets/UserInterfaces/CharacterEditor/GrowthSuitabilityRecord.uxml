@@ -1,0 +1,24 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement name="GrowthSuitabilityRecord" style="flex-grow: 1; flex-direction: row;">
+        <engine:VisualElement style="flex-grow: 0; flex-shrink: 0; width: 60px; min-width: 60px; max-width: 60px; margin-top: 4px; margin-right: 4px; margin-bottom: 2px; margin-left: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <engine:TextField label="" placeholder-text="0" name="TxtLv" keyboard-type="NumberPad" value="0" style="flex-grow: 1;"/>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; flex-shrink: 0; width: 170px; min-width: 170px; max-width: 170px; margin-top: 4px; margin-right: 4px; margin-bottom: 2px; margin-left: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row;">
+            <engine:Toggle label="" name="TglSpace"/>
+            <engine:EnumField label="" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmSpace" style="flex-grow: 1;"/>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; flex-shrink: 0; width: 170px; min-width: 170px; max-width: 170px; margin-top: 4px; margin-right: 4px; margin-bottom: 2px; margin-left: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row;">
+            <engine:Toggle label="" name="TglAir"/>
+            <engine:EnumField label="" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmAir" style="flex-grow: 1;"/>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; flex-shrink: 0; width: 170px; min-width: 170px; max-width: 170px; margin-top: 4px; margin-right: 4px; margin-bottom: 2px; margin-left: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row;">
+            <engine:Toggle label="" name="TglGround"/>
+            <engine:EnumField label="" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmGround" style="flex-grow: 1;"/>
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; flex-shrink: 0; width: 170px; min-width: 170px; max-width: 170px; margin-top: 4px; margin-right: 4px; margin-bottom: 2px; margin-left: 2px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-direction: row;">
+            <engine:Toggle label="" name="TglUnderwater"/>
+            <engine:EnumField label="" value="E" type="Functions.Enum.Suitable, Assembly-CSharp" name="EnmUnderwater" style="flex-grow: 1;"/>
+        </engine:VisualElement>
+        <engine:Button text="-" name="BtnRemoveGrowthSuitability" style="background-color: rgb(188, 188, 188); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; flex-grow: 1;"/>
+    </engine:VisualElement>
+</engine:UXML>
