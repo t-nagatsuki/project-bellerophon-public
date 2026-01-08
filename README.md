@@ -48,4 +48,4 @@ Project Bellerophonは、独自のスクリプトエンジンとデータ構造�
 
 ### 最新版のダウンロード
 
-https://nagatsuki.fanbox.cc/posts/10863045
+[pixivFANBOX](https://nagatsuki.fanbox.cc/posts/11212421)
